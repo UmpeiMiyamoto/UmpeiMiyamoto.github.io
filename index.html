@@ -7,17 +7,29 @@
     <style>
         body { margin: 2rem; line-height: 1.7; }
     </style>
+    <script>
+      const lastModified = new Date(document.lastModified);
+
+      const y = lastModified.getFullYear();
+      const m = String(lastModified.getMonth() + 1).padStart(2, '0');
+      const d = String(lastModified.getDate()).padStart(2, '0');
+
+  document.getElementById("last-updated").textContent =
+    `${y}年${m}月${d}日`;
+</script>
 </head>
 <body>
 <h1>宮本雲平の私設ウェブサイト</h1>
 
-<p><a href="https://umpeimiyamoto.github.io/index_en.html">English page</a>
+<a href="https://umpeimiyamoto.github.io/index_en.html">English page</a>
 
 <p>理論物理学者・数学教育者である宮本雲平（<a href="https://umpeimiyamoto.github.io/lecturing.jpg">風貌</a>）のウェブサイト@<a href="https://github.com">GitHub</a></p>
 
+<hr>
+
 <ul>
     <li>
-        所属：秋田県立大学 総合科学教育研究センター 教授
+        現職：秋田県立大学 総合科学教育研究センター 教授
     </li>
     <li>
         郵便：〒015-0055 秋田県由利本荘市土谷字海老ノ口84-4 秋田県立大学 総合科学教育研究センター
@@ -85,7 +97,8 @@
     </li>
 </ul>
 
-<p>最終更新：2025年12月26日</p>
+<hr>
+最終更新：<span id="last-updated"></span>
     
 </body>
 </html>
