@@ -7,13 +7,24 @@
     <style>
         body { margin: 2rem; line-height: 1.7; }
     </style>
+    <script>
+      const lastModified = new Date(document.lastModified);
+
+      const y = lastModified.getFullYear();
+      const m = String(lastModified.getMonth() + 1).padStart(2, '0');
+      const d = String(lastModified.getDate()).padStart(2, '0');
+
+      document.getElementById("last-updated").textContent =`${y}年${m}月${d}日`;
+    </script>
 </head>
 <body>
 <h1>MIYAMOTO, Umpei's personal website</h1>
 
-<p><a href="https://umpeimiyamoto.github.io/index.html">Japanese page</a>
+<a href="https://umpeimiyamoto.github.io/index.html">Japanese page</a>
 
 <p>Website@<a href="https://github.com">GitHub</a> of Umpei Miyamoto, a theoretical physicist and a mathematics educator (<a href="https://umpeimiyamoto.github.io/lecturing.jpg">appearance</a>)
+
+<hr>
 
 <ul>
     <li>
@@ -58,7 +69,8 @@
     </li>
 </ul>
 
-<p>Last update: Nov. 26, 2025</p>
+<hr>
+Last update: <span id="last-updated"></span>
     
 </body>
 </html>
