@@ -1,1 +1,138 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>アルバム</title>
+  <style>
+    :root { --gap: 10px; --max: 1100px; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
+      background: #fff;
+      color: #111;
+    }
+
+    header {
+      max-width: var(--max);
+      margin: 24px auto 8px;
+      padding: 0 16px;
+    }
+    h1 { font-size: 1.2rem; margin: 0; font-weight: 600; }
+    p  { margin: 8px 0 0; font-size: 0.95rem; color: #444; }
+
+    .grid {
+      max-width: var(--max);
+      margin: 0 auto 40px;
+      padding: 0 16px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--gap);
+    }
+    @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }
+
+    figure {
+      margin: 0;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #f4f4f4;
+      box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    }
+
+    a.thumb {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* 画像はサムネとしてトリミング表示（縦横比がバラバラでも見やすい） */
+    img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      display: block;
+      transform: scale(1);
+      transition: transform .12s ease-in-out;
+    }
+    a.thumb:hover img { transform: scale(1.02); }
+
+    figcaption {
+      padding: 8px 10px 10px;
+      font-size: 0.92rem;
+      line-height: 1.35;
+      background: #fff;
+      border-top: 1px solid rgba(0,0,0,.06);
+    }
+
+    /* キャプションが長い場合の見た目を整える（任意） */
+    .cap-title { font-weight: 600; display: block; }
+    .cap-note  { color: #444; font-size: 0.9em; display: block; margin-top: 2px; }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>アルバム</h1>
+    <p>サムネイルをクリックすると画像ファイルを表示します。</p>
+  </header>
+
+  <main class="grid">
+
+    <!-- 例1 -->
+    <figure>
+      <!-- href は「大きい画像（表示用）」へ直リンク -->
+      <a class="thumb" href="images/200307a.jpg">
+        <!-- src は「サムネに使う画像」。同じでもOK -->
+        <img src="images/200307a.jpg" alt="200307a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">アマゾンの夕焼け</span>
+        <span class="cap-note">2003.ブラジル</span>
+      </figcaption>
+    </figure>
+
+    <!-- 例2 -->
+    <figure>
+      <a class="thumb" href="images/200307b.jpg">
+        <img src="images/200307b.jpg" alt="200307b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">野生のカピバラ</span>
+        <span class="cap-note">2003.ブラジル</span>
+      </figcaption>
+    </figure>
+
+    <figure>
+      <a class="thumb" href="images/200307c.jpg">
+        <img src="images/200307c.jpg" alt="200307c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">滝</span>
+        <span class="cap-note">2003.ブラジル</span>
+      </figcaption>
+    </figure>
+
+
+  </main>
+
+
+<hr>
+最終更新：<span id="last-updated"></span>
+
+<script>
+  const lastModified = new Date(document.lastModified);
+
+  const y = lastModified.getFullYear();
+  const m = String(lastModified.getMonth() + 1).padStart(2, '0');
+  const d = String(lastModified.getDate()).padStart(2, '0');
+
+  document.getElementById("last-updated").textContent =
+    `${y}年${m}月${d}日`;
+</script>
+
+
+</body>
+</html>
 
