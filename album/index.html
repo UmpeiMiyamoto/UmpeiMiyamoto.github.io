@@ -24,7 +24,7 @@
 
     .grid {
       max-width: var(--max);
-      margin: 0 auto 40px;
+      margin: 0 auto 32px;
       padding: 0 16px;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -47,7 +47,6 @@
       color: inherit;
     }
 
-    /* 画像はサムネとしてトリミング表示（縦横比がバラバラでも見やすい） */
     img {
       width: 100%;
       aspect-ratio: 4 / 3;
@@ -66,9 +65,16 @@
       border-top: 1px solid rgba(0,0,0,.06);
     }
 
-    /* キャプションが長い場合の見た目を整える（任意） */
     .cap-title { font-weight: 600; display: block; }
     .cap-note  { color: #444; font-size: 0.9em; display: block; margin-top: 2px; }
+
+    footer {
+      max-width: var(--max);
+      margin: 0 auto 40px;
+      padding: 0 16px;
+      color: #444;
+      font-size: 0.92rem;
+    }
   </style>
 </head>
 
@@ -79,12 +85,8 @@
   </header>
 
   <main class="grid">
-
-    <!-- 例1 -->
     <figure>
-      <!-- href は「大きい画像（表示用）」へ直リンク -->
       <a class="thumb" href="images/200307a.jpg">
-        <!-- src は「サムネに使う画像」。同じでもOK -->
         <img src="images/200307a.jpg" alt="200307a" loading="lazy">
       </a>
       <figcaption>
@@ -92,8 +94,6 @@
         <span class="cap-note">2003.ブラジル</span>
       </figcaption>
     </figure>
-
-    <!-- 例2 -->
     <figure>
       <a class="thumb" href="images/200307b.jpg">
         <img src="images/200307b.jpg" alt="200307b" loading="lazy">
@@ -103,36 +103,877 @@
         <span class="cap-note">2003.ブラジル</span>
       </figcaption>
     </figure>
-
     <figure>
       <a class="thumb" href="images/200307c.jpg">
         <img src="images/200307c.jpg" alt="200307c" loading="lazy">
       </a>
       <figcaption>
-        <span class="cap-title">滝</span>
+        <span class="cap-title">アマゾンの滝</span>
         <span class="cap-note">2003.ブラジル</span>
       </figcaption>
     </figure>
-
-
+    <figure>
+      <a class="thumb" href="images/200307d.jpg">
+        <img src="images/200307d.jpg" alt="200307d" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200307e.jpg">
+        <img src="images/200307e.jpg" alt="200307e" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200307f.jpg">
+        <img src="images/200307f.jpg" alt="200307f" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200307g.jpg">
+        <img src="images/200307g.jpg" alt="200307g" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200407a.jpg">
+        <img src="images/200407a.jpg" alt="200407a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200407b.jpg">
+        <img src="images/200407b.jpg" alt="200407b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200407c.jpg">
+        <img src="images/200407c.jpg" alt="200407c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200407d.jpg">
+        <img src="images/200407d.jpg" alt="200407d" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200702.jpg">
+        <img src="images/200702.jpg" alt="200702" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200710.jpg">
+        <img src="images/200710.jpg" alt="200710" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200803a.jpg">
+        <img src="images/200803a.jpg" alt="200803a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200803b.jpg">
+        <img src="images/200803b.jpg" alt="200803b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200803c.jpg">
+        <img src="images/200803c.jpg" alt="200803c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200804a.jpg">
+        <img src="images/200804a.jpg" alt="200804a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200804b.jpg">
+        <img src="images/200804b.jpg" alt="200804b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200804c.jpg">
+        <img src="images/200804c.jpg" alt="200804c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200804d.jpg">
+        <img src="images/200804d.jpg" alt="200804d" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200806a.jpg">
+        <img src="images/200806a.jpg" alt="200806a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200806b.jpg">
+        <img src="images/200806b.jpg" alt="200806b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200807.jpg">
+        <img src="images/200807.jpg" alt="200807" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200901.jpg">
+        <img src="images/200901.jpg" alt="200901" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200903a.jpg">
+        <img src="images/200903a.jpg" alt="200903a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200903b.jpg">
+        <img src="images/200903b.jpg" alt="200903b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200903c.jpg">
+        <img src="images/200903c.jpg" alt="200903c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200903d.jpg">
+        <img src="images/200903d.jpg" alt="200903d" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200903e.jpg">
+        <img src="images/200903e.jpg" alt="200903e" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200905a.jpg">
+        <img src="images/200905a.jpg" alt="200905a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200905b.jpg">
+        <img src="images/200905b.jpg" alt="200905b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200905c.jpg">
+        <img src="images/200905c.jpg" alt="200905c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200906a.jpg">
+        <img src="images/200906a.jpg" alt="200906a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200906b.jpg">
+        <img src="images/200906b.jpg" alt="200906b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200907a.jpg">
+        <img src="images/200907a.jpg" alt="200907a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200907b.jpg">
+        <img src="images/200907b.jpg" alt="200907b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200907c.jpg">
+        <img src="images/200907c.jpg" alt="200907c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200908a.jpg">
+        <img src="images/200908a.jpg" alt="200908a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200908b.jpg">
+        <img src="images/200908b.jpg" alt="200908b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/200908c.jpg">
+        <img src="images/200908c.jpg" alt="200908c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201009a.jpg">
+        <img src="images/201009a.jpg" alt="201009a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201009b.jpg">
+        <img src="images/201009b.jpg" alt="201009b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201103a.jpg">
+        <img src="images/201103a.jpg" alt="201103a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201103b.jpg">
+        <img src="images/201103b.jpg" alt="201103b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201103c.jpg">
+        <img src="images/201103c.jpg" alt="201103c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201103d.jpg">
+        <img src="images/201103d.jpg" alt="201103d" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201103e.jpg">
+        <img src="images/201103e.jpg" alt="201103e" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201103f.jpg">
+        <img src="images/201103f.jpg" alt="201103f" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201109.jpg">
+        <img src="images/201109.jpg" alt="201109" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201208a.jpg">
+        <img src="images/201208a.jpg" alt="201208a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201208b.jpg">
+        <img src="images/201208b.jpg" alt="201208b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201208c.jpg">
+        <img src="images/201208c.jpg" alt="201208c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201212.jpg">
+        <img src="images/201212.jpg" alt="201212" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201303.jpg">
+        <img src="images/201303.jpg" alt="201303" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201304a.jpg">
+        <img src="images/201304a.jpg" alt="201304a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201304b.jpg">
+        <img src="images/201304b.jpg" alt="201304b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201304c.jpg">
+        <img src="images/201304c.jpg" alt="201304c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201304d.jpg">
+        <img src="images/201304d.jpg" alt="201304d" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201304e.jpg">
+        <img src="images/201304e.jpg" alt="201304e" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201304f.jpg">
+        <img src="images/201304f.jpg" alt="201304f" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201304g.jpg">
+        <img src="images/201304g.jpg" alt="201304g" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201304h.jpg">
+        <img src="images/201304h.jpg" alt="201304h" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201304i.jpg">
+        <img src="images/201304i.jpg" alt="201304i" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201306a.jpg">
+        <img src="images/201306a.jpg" alt="201306a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201306b.jpg">
+        <img src="images/201306b.jpg" alt="201306b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201306c.jpg">
+        <img src="images/201306c.jpg" alt="201306c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201306d.jpg">
+        <img src="images/201306d.jpg" alt="201306d" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201308a.jpg">
+        <img src="images/201308a.jpg" alt="201308a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201308b.jpg">
+        <img src="images/201308b.jpg" alt="201308b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201308c.jpg">
+        <img src="images/201308c.jpg" alt="201308c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201308d.jpg">
+        <img src="images/201308d.jpg" alt="201308d" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201308e.jpg">
+        <img src="images/201308e.jpg" alt="201308e" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201308f.jpg">
+        <img src="images/201308f.jpg" alt="201308f" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201311a.jpg">
+        <img src="images/201311a.jpg" alt="201311a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201311b.jpg">
+        <img src="images/201311b.jpg" alt="201311b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201311c.jpg">
+        <img src="images/201311c.jpg" alt="201311c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201311e.jpg">
+        <img src="images/201311e.jpg" alt="201311e" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201311f.jpg">
+        <img src="images/201311f.jpg" alt="201311f" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201402a.jpg">
+        <img src="images/201402a.jpg" alt="201402a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201402b.jpg">
+        <img src="images/201402b.jpg" alt="201402b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201402c.jpg">
+        <img src="images/201402c.jpg" alt="201402c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201402d.jpg">
+        <img src="images/201402d.jpg" alt="201402d" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201402e.jpg">
+        <img src="images/201402e.jpg" alt="201402e" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201402f.jpg">
+        <img src="images/201402f.jpg" alt="201402f" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201402g.jpg">
+        <img src="images/201402g.jpg" alt="201402g" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201403a.jpg">
+        <img src="images/201403a.jpg" alt="201403a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201403b.jpg">
+        <img src="images/201403b.jpg" alt="201403b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201408a.jpg">
+        <img src="images/201408a.jpg" alt="201408a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201408b.jpg">
+        <img src="images/201408b.jpg" alt="201408b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201408c.jpg">
+        <img src="images/201408c.jpg" alt="201408c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201409a.jpg">
+        <img src="images/201409a.jpg" alt="201409a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201409b.jpg">
+        <img src="images/201409b.jpg" alt="201409b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201409c.jpg">
+        <img src="images/201409c.jpg" alt="201409c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201409d.jpg">
+        <img src="images/201409d.jpg" alt="201409d" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201410a.jpg">
+        <img src="images/201410a.jpg" alt="201410a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201410b.jpg">
+        <img src="images/201410b.jpg" alt="201410b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201410c.jpg">
+        <img src="images/201410c.jpg" alt="201410c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201412a.jpg">
+        <img src="images/201412a.jpg" alt="201412a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201412b.jpg">
+        <img src="images/201412b.jpg" alt="201412b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201605.jpg">
+        <img src="images/201605.jpg" alt="201605" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201606.jpg">
+        <img src="images/201606.jpg" alt="201606" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201606a.jpg">
+        <img src="images/201606a.jpg" alt="201606a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201608.jpg">
+        <img src="images/201608.jpg" alt="201608" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201609a.jpg">
+        <img src="images/201609a.jpg" alt="201609a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201609b.jpg">
+        <img src="images/201609b.jpg" alt="201609b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201610a.jpg">
+        <img src="images/201610a.jpg" alt="201610a" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201610b.jpg">
+        <img src="images/201610b.jpg" alt="201610b" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201610c.jpg">
+        <img src="images/201610c.jpg" alt="201610c" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
+    <figure>
+      <a class="thumb" href="images/201610d.jpg">
+        <img src="images/201610d.jpg" alt="201610d" loading="lazy">
+      </a>
+      <figcaption>
+        <span class="cap-title">（キャプション未入力）</span>
+      </figcaption>
+    </figure>
   </main>
 
+  <footer>
+    <hr>
+    生成日時：2026-01-12 11:48:53<br>
+    最終更新（ブラウザ計算）：<span id="last-updated"></span>
+  </footer>
 
-<hr>
-最終更新：<span id="last-updated"></span>
-
-<script>
-  const lastModified = new Date(document.lastModified);
-
-  const y = lastModified.getFullYear();
-  const m = String(lastModified.getMonth() + 1).padStart(2, '0');
-  const d = String(lastModified.getDate()).padStart(2, '0');
-
-  document.getElementById("last-updated").textContent =
-    `${y}年${m}月${d}日`;
-</script>
-
-
+  <script>
+    const lastModified = new Date(document.lastModified);
+    const y = lastModified.getFullYear();
+    const m = String(lastModified.getMonth() + 1).padStart(2, '0');
+    const d = String(lastModified.getDate()).padStart(2, '0');
+    document.getElementById("last-updated").textContent = `${y}年${m}月${d}日`;
+  </script>
 </body>
 </html>
-
