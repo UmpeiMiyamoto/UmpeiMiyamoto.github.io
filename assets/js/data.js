@@ -803,14 +803,6 @@ window.SITE_DATA = {
       "source": "field"
     },
     {
-      "filename": "photo-001.jpg",
-      "title": "",
-      "note": "2023.09",
-      "src": "assets/album/field/photo-001.jpg",
-      "tags": "イタリア 海外",
-      "source": "field"
-    },
-    {
       "filename": "photo-018.jpg",
       "title": "",
       "note": "2022.07",
@@ -891,14 +883,6 @@ window.SITE_DATA = {
       "source": "field"
     },
     {
-      "filename": "photo-067.jpg",
-      "title": "",
-      "note": "2023.09",
-      "src": "assets/album/field/photo-067.jpg",
-      "tags": "イタリア 海外",
-      "source": "field"
-    },
-    {
       "filename": "photo-071.jpg",
       "title": "",
       "note": "2023.09",
@@ -928,14 +912,6 @@ window.SITE_DATA = {
       "note": "2024.09",
       "src": "assets/album/field/photo-040.jpg",
       "tags": "ギリシャ 海外",
-      "source": "field"
-    },
-    {
-      "filename": "photo-068.jpg",
-      "title": "",
-      "note": "2023.09",
-      "src": "assets/album/field/photo-068.jpg",
-      "tags": "イタリア 海外",
       "source": "field"
     },
     {
@@ -976,14 +952,6 @@ window.SITE_DATA = {
       "note": "2024.09",
       "src": "assets/album/field/photo-041.jpg",
       "tags": "ギリシャ 海外",
-      "source": "field"
-    },
-    {
-      "filename": "photo-069.jpg",
-      "title": "",
-      "note": "2023.09",
-      "src": "assets/album/field/photo-069.jpg",
-      "tags": "イタリア 海外",
       "source": "field"
     },
     {
@@ -1331,30 +1299,6 @@ window.SITE_DATA = {
       "title": "下浜海水浴場",
       "note": "2013.秋田",
       "src": "assets/album/images/201306c.jpg"
-    },
-    {
-      "filename": "201306d.jpg",
-      "title": "バルディビア",
-      "note": "2013.チリ",
-      "src": "assets/album/images/201306d.jpg"
-    },
-    {
-      "filename": "201308a.jpg",
-      "title": "バルディビア",
-      "note": "2013.チリ",
-      "src": "assets/album/images/201308a.jpg"
-    },
-    {
-      "filename": "201308b.jpg",
-      "title": "バルディビア",
-      "note": "2013.チリ",
-      "src": "assets/album/images/201308b.jpg"
-    },
-    {
-      "filename": "201308c.jpg",
-      "title": "バルディビア",
-      "note": "2013.チリ",
-      "src": "assets/album/images/201308c.jpg"
     },
     {
       "filename": "201308d.jpg",

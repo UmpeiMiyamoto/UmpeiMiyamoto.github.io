@@ -104,28 +104,13 @@
 
   const featuredAlbumRecords = [
     { filename: "photo-044.jpg", src: "assets/album/field/photo-044.jpg", titleJa: "ギリシャ", titleEn: "Greece", date: "2024.09", noteJa: "海辺の食卓", noteEn: "seaside table", tags: "ギリシャ 海外 料理" },
-    { filename: "photo-045.jpg", src: "assets/album/field/photo-045.jpg", titleJa: "ギリシャ", titleEn: "Greece", date: "2024.09", noteJa: "料理", noteEn: "food", tags: "ギリシャ 海外 料理" },
     { filename: "photo-043.jpg", src: "assets/album/field/photo-043.jpg", titleJa: "ギリシャ", titleEn: "Greece", date: "2024.09", noteJa: "エーゲ海", noteEn: "Aegean Sea", tags: "ギリシャ 海外 海" },
-    { filename: "photo-042.jpg", src: "assets/album/field/photo-042.jpg", titleJa: "ギリシャ", titleEn: "Greece", date: "2024.09", noteJa: "海岸", noteEn: "coast", tags: "ギリシャ 海外 海" },
-    { filename: "photo-041.jpg", src: "assets/album/field/photo-041.jpg", titleJa: "ギリシャ", titleEn: "Greece", date: "2024.09", noteJa: "入り江", noteEn: "cove", tags: "ギリシャ 海外 海" },
-    { filename: "photo-037.jpg", src: "assets/album/field/photo-037.jpg", titleJa: "アテネ", titleEn: "Athens", date: "2024.09", noteJa: "街並み", noteEn: "streets", tags: "ギリシャ アテネ 海外 街" },
+    { filename: "photo-037.jpg", src: "assets/album/field/photo-037.jpg", titleJa: "アテネ", titleEn: "Athens", date: "2024.09", noteJa: "パルテノン神殿", noteEn: "Parthenon", tags: "ギリシャ アテネ 海外 遺跡" },
     { filename: "photo-034.jpg", src: "assets/album/field/photo-034.jpg", titleJa: "アテネ", titleEn: "Athens", date: "2024.09", noteJa: "路面電車", noteEn: "tram", tags: "ギリシャ アテネ 海外 街" },
-    { filename: "photo-038.jpg", src: "assets/album/field/photo-038.jpg", titleJa: "ギリシャ", titleEn: "Greece", date: "2024.09", noteJa: "海辺", noteEn: "seaside", tags: "ギリシャ 海外 海" },
-    { filename: "photo-001.jpg", src: "assets/album/field/photo-001.jpg", titleJa: "テレビ出演", titleEn: "TV appearance", date: "2023.09", noteJa: "解説", noteEn: "commentary", tags: "テレビ 出演 国内 研究" },
-    { filename: "photo-013.jpg", src: "assets/album/field/photo-013.jpg", titleJa: "テレビ出演", titleEn: "TV appearance", date: "2023.09", noteJa: "番組画面", noteEn: "program screen", tags: "テレビ 出演 国内 研究" },
-    { filename: "photo-111.jpg", src: "assets/album/field/photo-111.jpg", titleJa: "テレビ出演", titleEn: "TV appearance", date: "2023.04", noteJa: "番組画面", noteEn: "program screen", tags: "テレビ 出演 国内 研究" },
-    { filename: "photo-113.jpg", src: "assets/album/field/photo-113.jpg", titleJa: "テレビ出演", titleEn: "TV appearance", date: "2023.04", noteJa: "番組画面", noteEn: "program screen", tags: "テレビ 出演 国内 研究" },
     { filename: "photo-070.jpg", src: "assets/album/field/photo-070.jpg", titleJa: "トリエステ", titleEn: "Trieste", date: "2023.09", noteJa: "研究会", noteEn: "workshop", tags: "イタリア トリエステ 海外 研究" },
-    { filename: "photo-067.jpg", src: "assets/album/field/photo-067.jpg", titleJa: "トリエステ", titleEn: "Trieste", date: "2023.09", noteJa: "広場", noteEn: "piazza", tags: "イタリア トリエステ 海外 街" },
-    { filename: "photo-068.jpg", src: "assets/album/field/photo-068.jpg", titleJa: "トリエステ", titleEn: "Trieste", date: "2023.09", noteJa: "建築", noteEn: "architecture", tags: "イタリア トリエステ 海外 建築" },
-    { filename: "photo-069.jpg", src: "assets/album/field/photo-069.jpg", titleJa: "トリエステ", titleEn: "Trieste", date: "2023.09", noteJa: "広場", noteEn: "piazza", tags: "イタリア トリエステ 海外 街" },
     { filename: "photo-064.jpg", src: "assets/album/field/photo-064.jpg", titleJa: "トリエステ", titleEn: "Trieste", date: "2023.09", noteJa: "カフェ", noteEn: "cafe", tags: "イタリア トリエステ 海外 料理" },
-    { filename: "photo-063.jpg", src: "assets/album/field/photo-063.jpg", titleJa: "トリエステ", titleEn: "Trieste", date: "2023.09", noteJa: "パスタ", noteEn: "pasta", tags: "イタリア トリエステ 海外 料理" },
     { filename: "photo-075.jpg", src: "assets/album/field/photo-075.jpg", titleJa: "トリエステ", titleEn: "Trieste", date: "2023.09", noteJa: "朝食", noteEn: "breakfast", tags: "イタリア トリエステ 海外 料理" },
-    { filename: "photo-066.jpg", src: "assets/album/field/photo-066.jpg", titleJa: "イタリア", titleEn: "Italy", date: "2023.09", noteJa: "街並み", noteEn: "city view", tags: "イタリア 海外 街" },
-    { filename: "photo-010.jpg", src: "assets/album/field/photo-010.jpg", titleJa: "ベネチア", titleEn: "Venice", date: "2023.09", noteJa: "運河", noteEn: "canal", tags: "イタリア ベネチア 海外 街" },
-    { filename: "photo-011.jpg", src: "assets/album/field/photo-011.jpg", titleJa: "ベネチア", titleEn: "Venice", date: "2023.09", noteJa: "街角", noteEn: "street corner", tags: "イタリア ベネチア 海外 街" },
-    { filename: "photo-012.jpg", src: "assets/album/field/photo-012.jpg", titleJa: "ベネチア", titleEn: "Venice", date: "2023.09", noteJa: "ゴンドラ", noteEn: "gondola", tags: "イタリア ベネチア 海外 街" },
+    { filename: "photo-012.jpg", src: "assets/album/field/photo-012.jpg", titleJa: "ベネチア", titleEn: "Venice", date: "2023.09", noteJa: "運河とゴンドラ", noteEn: "canal and gondola", tags: "イタリア ベネチア 海外 街" },
     { filename: "photo-004.jpg", src: "assets/album/field/photo-004.jpg", titleJa: "イタリア", titleEn: "Italy", date: "2023.09", noteJa: "港", noteEn: "harbor", tags: "イタリア 海外 街" },
     { filename: "photo-007.jpg", src: "assets/album/field/photo-007.jpg", titleJa: "イタリア", titleEn: "Italy", date: "2023.09", noteJa: "食事", noteEn: "meal", tags: "イタリア 海外 料理" },
     { filename: "photo-060.jpg", src: "assets/album/field/photo-060.jpg", titleJa: "イタリア", titleEn: "Italy", date: "2023.09", noteJa: "朝食", noteEn: "breakfast", tags: "イタリア 海外 料理" },
@@ -133,9 +118,6 @@
     { filename: "photo-081.jpg", src: "assets/album/field/photo-081.jpg", titleJa: "ローマ", titleEn: "Rome", date: "2023.08", noteJa: "食事", noteEn: "meal", tags: "イタリア ローマ 海外 料理" },
     { filename: "photo-082.jpg", src: "assets/album/field/photo-082.jpg", titleJa: "ローマ", titleEn: "Rome", date: "2023.08", noteJa: "軽食", noteEn: "snack", tags: "イタリア ローマ 海外 料理" },
     { filename: "photo-085.jpg", src: "assets/album/field/photo-085.jpg", titleJa: "ローマ", titleEn: "Rome", date: "2023.08", noteJa: "市場", noteEn: "market", tags: "イタリア ローマ 海外 料理" },
-    { filename: "photo-133.jpg", src: "assets/album/field/photo-133.jpg", titleJa: "神戸", titleEn: "Kobe", date: "2023.08", noteJa: "食事", noteEn: "meal", tags: "神戸 国内 料理" },
-    { filename: "photo-135.jpg", src: "assets/album/field/photo-135.jpg", titleJa: "神戸", titleEn: "Kobe", date: "2023.08", noteJa: "夜景", noteEn: "night view", tags: "神戸 国内 街" },
-    { filename: "photo-136.jpg", src: "assets/album/field/photo-136.jpg", titleJa: "神戸", titleEn: "Kobe", date: "2023.08", noteJa: "滞在", noteEn: "stay", tags: "神戸 国内 街" },
     { filename: "photo-089.jpg", src: "assets/album/field/photo-089.jpg", titleJa: "秋田", titleEn: "Akita", date: "2023.04", noteJa: "海の幸", noteEn: "seafood", tags: "秋田 国内 料理" },
     { filename: "photo-087.jpg", src: "assets/album/field/photo-087.jpg", titleJa: "秋田", titleEn: "Akita", date: "2023.04", noteJa: "海鮮丼", noteEn: "seafood bowl", tags: "秋田 国内 料理" },
     { filename: "photo-118.jpg", src: "assets/album/field/photo-118.jpg", titleJa: "秋田", titleEn: "Akita", date: "2023.04", noteJa: "水辺", noteEn: "waterside", tags: "秋田 国内 風景" },
@@ -152,8 +134,6 @@
     { filename: "201402g.jpg", src: "assets/album/images/201402g.jpg", titleJa: "愛知", titleEn: "Aichi", date: "2014.02", noteJa: "名古屋城", noteEn: "Nagoya Castle", tags: "愛知 国内 建築" },
     { filename: "201311e.jpg", src: "assets/album/images/201311e.jpg", titleJa: "青森", titleEn: "Aomori", date: "2013.11", noteJa: "弘前城", noteEn: "Hirosaki Castle", tags: "青森 国内 建築" },
     { filename: "201311a.jpg", src: "assets/album/images/201311a.jpg", titleJa: "秋田", titleEn: "Akita", date: "2013.11", noteJa: "小安峡", noteEn: "Oyasukyo Gorge", tags: "秋田 国内 自然" },
-    { filename: "201306d.jpg", src: "assets/album/images/201306d.jpg", titleJa: "チリ", titleEn: "Chile", date: "2013.06", noteJa: "バルディビア", noteEn: "Valdivia", tags: "チリ 海外 街" },
-    { filename: "201308a.jpg", src: "assets/album/images/201308a.jpg", titleJa: "チリ", titleEn: "Chile", date: "2013.08", noteJa: "バルディビア", noteEn: "Valdivia", tags: "チリ 海外 街" },
     { filename: "201308d.jpg", src: "assets/album/images/201308d.jpg", titleJa: "チリ", titleEn: "Chile", date: "2013.08", noteJa: "夕景", noteEn: "evening sky", tags: "チリ 海外 街" },
     { filename: "201103b.jpg", src: "assets/album/images/201103b.jpg", titleJa: "パタゴニア", titleEn: "Patagonia", date: "2011.03", noteJa: "トーレス・デル・パイネ", noteEn: "Torres del Paine", tags: "アルゼンチン チリ 海外 自然" },
     { filename: "201103c.jpg", src: "assets/album/images/201103c.jpg", titleJa: "パタゴニア", titleEn: "Patagonia", date: "2011.03", noteJa: "山並み", noteEn: "mountains", tags: "アルゼンチン チリ 海外 自然" },
@@ -260,6 +240,7 @@
           const cats = paper.categories.slice(0, 3).map(function (cat) {
             return `<span class="tag">${escapeHTML(cat)}</span>`;
           }).join("");
+          const summary = lang === "ja" ? getJapanesePublicationSummary(paper) : truncate(paper.summary, 360);
           return `<article class="paper-card">
             <div class="paper-meta">
               <span>${escapeHTML(paper.year)}</span>
@@ -267,7 +248,8 @@
               <a href="${escapeHTML(paper.url)}">${labels[lang].arxiv}:${escapeHTML(paper.id)}</a>
             </div>
             <h3><a href="${escapeHTML(paper.url)}">${escapeHTML(paper.title)}</a></h3>
-            ${withSummary ? `<p>${escapeHTML(truncate(paper.summary, 360))}</p>` : ""}
+            ${withSummary ? `<p class="paper-summary">${escapeHTML(summary)}</p>` : ""}
+            ${withSummary && lang === "ja" ? `<details class="paper-abstract"><summary>arXiv Abstract（英語）</summary><p>${escapeHTML(truncate(paper.summary, 720))}</p></details>` : ""}
             <div class="tag-row">${cats}</div>
           </article>`;
         }).join("") : `<div class="no-results">${labels[lang].noPapers}</div>`;
@@ -283,6 +265,22 @@
       if (search) search.addEventListener("input", render);
       render();
     });
+  }
+
+  function getJapanesePublicationSummary(paper) {
+    const theme = ["dimensional", "geometry", "fluid", "quantum", "gravity"].find(function (name) {
+      return hasTheme(paper, name);
+    }) || "default";
+    const title = paper.title || "この論文";
+    const summaries = {
+      gravity: "強い重力やブラックホールの近くで、光・粒子・時空の形がどのように振る舞うかを調べた研究です。観測される影や軌道の性質から、重力場そのものを読み解く手がかりを与えます。",
+      quantum: "真空や粒子は、時空の曲がり方や境界条件の変化によって姿を変えます。この研究は、その量子効果を通して、古典的な時空と量子場の接点を明らかにするものです。",
+      fluid: "液体の柱や膜、ブラックブレーンの不安定性など、一見別の現象を共通する数理で捉える研究です。形が崩れる条件や、その後の変化を安定性の観点から調べています。",
+      geometry: "曲面や高次元の面の形を、平均曲率や安定性という幾何学の言葉で調べた研究です。物理で現れる液滴やブラックリングの形ともつながります。",
+      dimensional: "物理量の単位や制約条件を整理し、複雑なモデルを見通しよく扱うための次元解析の研究です。数式を簡約し、重要な無次元量を見つける助けになります。",
+      default: "数理物理の問題を、方程式・対称性・安定性の観点から調べた研究です。専門的な設定の背後にある物理的な意味が読み取りやすくなるよう整理しています。"
+    };
+    return `一般向け要約: ${summaries[theme]}（論文題目: ${title}）`;
   }
 
   function translateNote(note) {
