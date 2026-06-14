@@ -304,7 +304,6 @@
     const theme = ["dimensional", "geometry", "fluid", "quantum", "gravity"].find(function (name) {
       return hasTheme(paper, name);
     }) || "default";
-    const title = paper.title || "この論文";
     const summaries = {
       gravity: "強い重力やブラックホールの近くで，光・粒子・時空の形がどのように振る舞うかを調べた研究です．観測される影や軌道の性質から，重力場そのものを読み解く手がかりを与えます．",
       quantum: "真空や粒子は，時空の曲がり方や境界条件の変化によって姿を変えます．この研究は，その量子効果を通して，古典的な時空と量子場の接点を明らかにするものです．",
@@ -313,7 +312,7 @@
       dimensional: "物理量の単位や制約条件を整理し，複雑なモデルを見通しよく扱うための次元解析の研究です．数式を簡約し，重要な無次元量を見つける助けになります．",
       default: "数理物理の問題を，方程式・対称性・安定性の観点から調べた研究です．専門的な設定の背後にある物理的な意味が読み取りやすくなるよう整理しています．"
     };
-    return `一般向け要約: ${summaries[theme]}（論文題目: ${title}）`;
+    return summaries[theme];
   }
 
   function translateNote(note) {
