@@ -68,5 +68,21 @@
 
   <script src="assets/js/data.js?v=20260614-8"></script>
   <script src="assets/js/site.js?v=20260614-8"></script>
+  <script>
+    (function () {
+      function polishAlbum() {
+        document.querySelectorAll('.photo-card a[href*="201605.jpg"]').forEach(function (link) {
+          const card = link.closest('.photo-card');
+          if (card) card.remove();
+        });
+        document.querySelectorAll('.photo-card figcaption').forEach(function (caption) {
+          caption.textContent = caption.textContent.replace('Aomor i', 'Aomori');
+        });
+      }
+      polishAlbum();
+      const grid = document.querySelector('[data-album]');
+      if (grid) new MutationObserver(polishAlbum).observe(grid, { childList: true, subtree: true });
+    }());
+  </script>
 </body>
 </html>
