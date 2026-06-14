@@ -715,6 +715,15 @@ a:hover {
   line-height: 1.45;
 }
 
+.paper-visual-compact {
+  width: min(100%, 420px);
+  justify-self: start;
+}
+
+.paper-visual-compact img {
+  aspect-ratio: 16 / 8;
+}
+
 .research-visual-strip {
   display: grid;
   grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);

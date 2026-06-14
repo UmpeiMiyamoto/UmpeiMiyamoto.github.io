@@ -660,21 +660,7 @@ window.SITE_DATA = {
         "gravity",
         "fluid"
       ],
-      "summaryJa": "AdS側のブラックホール・ブラックストリング相転移を，双対なプラズマ流体の相図として描き，GL不安定性とRayleigh-Plateau型相転移の対応を示しています．",
-      "visuals": [
-        {
-          "src": "assets/research-media/liquid-bridge-10d.gif",
-          "alt": "Axisymmetric liquid-bridge equilibrium in ten dimensions",
-          "captionJa": "高次元液柱の軸対称平衡形状．流体側の相図からブラックホール・ブラックストリング相転移を読むための幾何です．",
-          "captionEn": "Axisymmetric liquid-bridge equilibrium used as the fluid-side geometry behind black-hole/black-string phase diagrams."
-        },
-        {
-          "src": "assets/research-media/liquid-bridge-12d.gif",
-          "alt": "Axisymmetric liquid-bridge equilibrium in twelve dimensions",
-          "captionJa": "次元を上げたときに現れる非一様な液柱形状．臨界次元をまたぐ相構造を視覚的に示します．",
-          "captionEn": "A higher-dimensional non-uniform liquid bridge, visualizing the phase structure across the critical dimension."
-        }
-      ]
+      "summaryJa": "AdS側のブラックホール・ブラックストリング相転移を，双対なプラズマ流体の相図として描き，GL不安定性とRayleigh-Plateau型相転移の対応を示しています．"
     },
     {
       "id": "0805.3146",
@@ -717,6 +703,7 @@ window.SITE_DATA = {
         {
           "src": "assets/research-media/surface-diffusion-12d.gif",
           "alt": "Surface-diffusion evolution of a higher-dimensional liquid column",
+          "compact": true,
           "captionJa": "曲率駆動拡散による高次元液柱の非線形発展．くびれ落ちるか，非一様な平衡形へ落ち着くかを可視化しています．",
           "captionEn": "Surface-diffusion evolution of a higher-dimensional liquid column, showing the route toward pinch-off or a non-uniform equilibrium."
         }

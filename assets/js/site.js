@@ -274,7 +274,8 @@
           const summary = lang === "ja" ? getJapanesePublicationSummary(paper) : truncate(paper.summary, 360);
           const visuals = Array.isArray(paper.visuals) ? paper.visuals.map(function (visual) {
             const caption = lang === "ja" ? (visual.captionJa || visual.caption || "") : (visual.captionEn || visual.caption || "");
-            return `<figure class="paper-visual">
+            const visualClass = visual.compact ? "paper-visual paper-visual-compact" : "paper-visual";
+            return `<figure class="${visualClass}">
               <img src="${escapeHTML(root + visual.src)}" alt="${escapeHTML(visual.alt || caption || paper.title)}" loading="lazy">
               ${caption ? `<figcaption>${escapeHTML(caption)}</figcaption>` : ""}
             </figure>`;
