@@ -779,30 +779,6 @@ window.SITE_DATA = {
       "source": "field"
     },
     {
-      "filename": "photo-038.jpg",
-      "title": "",
-      "note": "2024.09",
-      "src": "assets/album/field/photo-038.jpg",
-      "tags": "ギリシャ 海外",
-      "source": "field"
-    },
-    {
-      "filename": "photo-042.jpg",
-      "title": "",
-      "note": "2024.09",
-      "src": "assets/album/field/photo-042.jpg",
-      "tags": "ギリシャ 海外",
-      "source": "field"
-    },
-    {
-      "filename": "photo-034.jpg",
-      "title": "",
-      "note": "2024.09",
-      "src": "assets/album/field/photo-034.jpg",
-      "tags": "ギリシャ 海外",
-      "source": "field"
-    },
-    {
       "filename": "photo-018.jpg",
       "title": "",
       "note": "2022.07",
@@ -815,14 +791,6 @@ window.SITE_DATA = {
       "title": "",
       "note": "2023.09",
       "src": "assets/album/field/photo-066.jpg",
-      "tags": "イタリア 海外",
-      "source": "field"
-    },
-    {
-      "filename": "photo-070.jpg",
-      "title": "",
-      "note": "2023.09",
-      "src": "assets/album/field/photo-070.jpg",
       "tags": "イタリア 海外",
       "source": "field"
     },
@@ -871,14 +839,6 @@ window.SITE_DATA = {
       "title": "",
       "note": "2024.09",
       "src": "assets/album/field/photo-039.jpg",
-      "tags": "ギリシャ 海外",
-      "source": "field"
-    },
-    {
-      "filename": "photo-043.jpg",
-      "title": "",
-      "note": "2024.09",
-      "src": "assets/album/field/photo-043.jpg",
       "tags": "ギリシャ 海外",
       "source": "field"
     },

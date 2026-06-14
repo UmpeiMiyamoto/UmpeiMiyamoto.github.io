@@ -355,7 +355,8 @@ a:hover {
 }
 
 .thread-grid,
-.link-grid {
+.link-grid,
+.course-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 16px;
@@ -363,6 +364,7 @@ a:hover {
 
 .thread-card,
 .link-card,
+.course-card,
 .paper-card,
 .source-card {
   border: 1px solid var(--line);
@@ -374,12 +376,14 @@ a:hover {
 
 .thread-card,
 .link-card,
+.course-card,
 .source-card {
   padding: 20px;
 }
 
 .thread-card h3,
 .link-card h3,
+.course-card h3,
 .source-card h3 {
   margin: 0 0 10px;
   font-size: 1.02rem;
@@ -387,10 +391,41 @@ a:hover {
 
 .thread-card p,
 .link-card p,
+.course-card p,
 .source-card p {
   margin: 0;
   color: var(--muted);
   font-size: 0.94rem;
+}
+
+.course-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.course-card {
+  display: grid;
+  gap: 12px;
+}
+
+.course-meta {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.course-formula {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid rgba(181, 138, 34, 0.26);
+  border-radius: 8px;
+  background: rgba(181, 138, 34, 0.08);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.02rem;
+  line-height: 1.35;
+  letter-spacing: 0;
 }
 
 .access-grid {
@@ -778,6 +813,7 @@ a:hover {
 
   .thread-grid,
   .link-grid,
+  .course-grid,
   .source-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -827,6 +863,7 @@ a:hover {
 
   .thread-grid,
   .link-grid,
+  .course-grid,
   .source-grid,
   .album-grid,
   .album-grid.preview {
