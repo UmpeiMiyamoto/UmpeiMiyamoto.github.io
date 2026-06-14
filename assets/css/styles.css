@@ -427,7 +427,21 @@ a:hover {
   font-size: 1.02rem;
   line-height: 1.35;
   letter-spacing: 0;
+  text-align: center;
   overflow-wrap: anywhere;
+}
+
+.course-formula mjx-container[jax="SVG"] {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 2px;
+}
+
+.course-formula svg {
+  max-width: none;
 }
 
 .access-grid {
