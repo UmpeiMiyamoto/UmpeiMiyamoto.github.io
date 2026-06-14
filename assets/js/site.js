@@ -211,7 +211,7 @@
   };
 
   function hasTheme(paper, theme) {
-    if (Array.isArray(paper.themes) && paper.themes.includes(theme)) return true;
+    if (Array.isArray(paper.themes)) return paper.themes.includes(theme);
     const matcher = themeMatchers[theme];
     if (!matcher) return false;
     const searchable = [
@@ -301,6 +301,7 @@
   }
 
   function getJapanesePublicationSummary(paper) {
+    if (paper.summaryJa) return paper.summaryJa;
     const theme = ["dimensional", "geometry", "fluid", "quantum", "gravity"].find(function (name) {
       return hasTheme(paper, name);
     }) || "default";

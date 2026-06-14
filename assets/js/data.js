@@ -13,7 +13,11 @@ window.SITE_DATA = {
       ],
       "primary": "math-ph",
       "url": "https://arxiv.org/abs/2603.21527",
-      "summary": "We develop a linear-algebraic framework for dimensional analysis in systems with constraints, particularly when variables are numerous or related by implicit relations so that direct elimination is impractical. By expressing both dimensional relations and constraints in logarithmic variables, the problem is reduced to a linear structure. This formulation yields a simple count of independent dimensionless quantities and, more importantly, a purely algebraic procedure to eliminate redundant ones without trial and error. The method is especially effective for systems with implicit or multiple constraints, and is illustrated with the classical drag force problem."
+      "summary": "We develop a linear-algebraic framework for dimensional analysis in systems with constraints, particularly when variables are numerous or related by implicit relations so that direct elimination is impractical. By expressing both dimensional relations and constraints in logarithmic variables, the problem is reduced to a linear structure. This formulation yields a simple count of independent dimensionless quantities and, more importantly, a purely algebraic procedure to eliminate redundant ones without trial and error. The method is especially effective for systems with implicit or multiple constraints, and is illustrated with the classical drag force problem.",
+      "themes": [
+        "dimensional"
+      ],
+      "summaryJa": "制約条件を含む次元解析を対数変数の線形代数として定式化し，独立な無次元量の数え上げと冗長量の消去を機械的に行う方法を与えた研究です．"
     },
     {
       "id": "2411.08486",
@@ -29,7 +33,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/2411.08486",
-      "summary": "We present a method for determining the physical parameters of a Kerr-Newman black hole through shadow observation. In a system comprising a Kerr-Newman black hole, an observer, and a light source, the relevant parameters are mass $M$, specific angular momentum $a$, electric charge $Q$, inclination angle $i$, and distance $r_o$. We consider the cases where the observer is at either a finite distance or spatial infinity. Using our method, the dimensionless parameters $(a/M, Q/M, i)$ can be determined by observing the shadow contour of the Kerr-Newman black hole from spatial infinity. We analytically prove that the shadow contour of the Kerr-Newman black hole observed from spatial infinity is unique, where uniqueness is defined as the absence of two congruent shadow contours for distinct sets of dimensionless parameter values. This method is versatile and can be applied to a range of black hole solutions with charge. Additionally, we show analytically that the shadow contour of a Kerr-Newman black hole observed from a finite distance $r_o$ is not unique, meaning that the parameters of a Kerr-Newman black hole at finite distance cannot be determined from shadow observations. This result reveals a new challenge and provides a clear direction for further research on black hole shadows."
+      "summary": "We present a method for determining the physical parameters of a Kerr-Newman black hole through shadow observation. In a system comprising a Kerr-Newman black hole, an observer, and a light source, the relevant parameters are mass $M$, specific angular momentum $a$, electric charge $Q$, inclination angle $i$, and distance $r_o$. We consider the cases where the observer is at either a finite distance or spatial infinity. Using our method, the dimensionless parameters $(a/M, Q/M, i)$ can be determined by observing the shadow contour of the Kerr-Newman black hole from spatial infinity. We analytically prove that the shadow contour of the Kerr-Newman black hole observed from spatial infinity is unique, where uniqueness is defined as the absence of two congruent shadow contours for distinct sets of dimensionless parameter values. This method is versatile and can be applied to a range of black hole solutions with charge. Additionally, we show analytically that the shadow contour of a Kerr-Newman black hole observed from a finite distance $r_o$ is not unique, meaning that the parameters of a Kerr-Newman black hole at finite distance cannot be determined from shadow observations. This result reveals a new challenge and provides a clear direction for further research on black hole shadows.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "Kerr-Newmanブラックホールの影からスピン，電荷，傾斜角を決める方法を検討し，無限遠観測では一意性がある一方，有限距離観測では縮退が残ることを示しています．"
     },
     {
       "id": "2311.16802",
@@ -45,7 +53,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/2311.16802",
-      "summary": "We propose a new method to determine the physical parameters of Kerr black holes (namely, specific angular momentum $a$, inclination angle $i$, and distance $D$ from an observer) only from the shadow's information such as the size and shape. Key points in our method are (i) to treat the distance as a free parameter, (ii) to expand the shadow's outline as a Fourier series, and (iii) to construct principal components from the Fourier coefficients. These points enable us to obtain a one-to-one mapping between three principal components, being observables characterizing the size and deviation of shadow's shape from a circular disk, and the values of three parameters ($D/M, a/M, i$), where $M$ is the mass of black hole. Our method is applicable to various type of black holes and even to ones with accretion disks."
+      "summary": "We propose a new method to determine the physical parameters of Kerr black holes (namely, specific angular momentum $a$, inclination angle $i$, and distance $D$ from an observer) only from the shadow's information such as the size and shape. Key points in our method are (i) to treat the distance as a free parameter, (ii) to expand the shadow's outline as a Fourier series, and (iii) to construct principal components from the Fourier coefficients. These points enable us to obtain a one-to-one mapping between three principal components, being observables characterizing the size and deviation of shadow's shape from a circular disk, and the values of three parameters ($D/M, a/M, i$), where $M$ is the mass of black hole. Our method is applicable to various type of black holes and even to ones with accretion disks.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "Kerrブラックホールの影の輪郭をFourier係数と主成分で表し，有限距離の観測者から距離，スピン，傾斜角を推定する方法を提案した研究です．"
     },
     {
       "id": "2306.12211",
@@ -61,7 +73,11 @@ window.SITE_DATA = {
       ],
       "primary": "math.DG",
       "url": "https://arxiv.org/abs/2306.12211",
-      "summary": "Surfaces with constant mean curvature (CMC) are critical points of the area with volume constraint. They serve as a mathematical model of surfaces of soap bubbles and tiny liquid drops. CMC surfaces are said to be stable if the second variation of the area is nonnegative for all volume-preserving variations satisfying the given boundary condition. In this paper, we examine the stability of CMC hypersurfaces in general Euclidean space possibly having boundaries on two parallel hyperplanes. We reveal the stability of equilibrium hypersurfaces without self-intersection for the first time in all dimensions. The analysis is assisted by numerical computations."
+      "summary": "Surfaces with constant mean curvature (CMC) are critical points of the area with volume constraint. They serve as a mathematical model of surfaces of soap bubbles and tiny liquid drops. CMC surfaces are said to be stable if the second variation of the area is nonnegative for all volume-preserving variations satisfying the given boundary condition. In this paper, we examine the stability of CMC hypersurfaces in general Euclidean space possibly having boundaries on two parallel hyperplanes. We reveal the stability of equilibrium hypersurfaces without self-intersection for the first time in all dimensions. The analysis is assisted by numerical computations.",
+      "themes": [
+        "geometry"
+      ],
+      "summaryJa": "二つの平行超平面に自由境界を持つ定平均曲率超曲面について，体積保存変分に対する安定性を一般次元で調べ，自己交差しない平衡形状の安定性を明らかにしています．"
     },
     {
       "id": "2210.02164",
@@ -77,7 +93,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/2210.02164",
-      "summary": "We revisit the classic system of a spherically symmetric black hole in general relativity (i.e., a Schwarzschild black hole) surrounded by a geometrically thin accretion disk. Our purpose is to examine whether one can determine three parameters of this system (i.e., black hole mass $M$, distance between the black hole and an observer $r_o$, inclination angle $i$) solely by observing the accretion disk and the black hole shadow. A point in our analysis is to allow $r_o$ to be finite, which is set to be infinite in most relevant studies. First, it is shown that one can determine the values of $(r_o/M, i)$, where $M/r_o$ is the so-called angular gravitational radius, from the size and shape of shadow. Then, it is shown that if one additionally knows the accretion rate $\\dot{M}$ (respectively, mass $M$) by any independent theoretical or observational approach, one can determine the values of $(M, r_o, i)$ [respectively, $(\\dot{M}, r_o, i)$] without degeneracy, in principle, from the value of flux at any point on the accretion disk."
+      "summary": "We revisit the classic system of a spherically symmetric black hole in general relativity (i.e., a Schwarzschild black hole) surrounded by a geometrically thin accretion disk. Our purpose is to examine whether one can determine three parameters of this system (i.e., black hole mass $M$, distance between the black hole and an observer $r_o$, inclination angle $i$) solely by observing the accretion disk and the black hole shadow. A point in our analysis is to allow $r_o$ to be finite, which is set to be infinite in most relevant studies. First, it is shown that one can determine the values of $(r_o/M, i)$, where $M/r_o$ is the so-called angular gravitational radius, from the size and shape of shadow. Then, it is shown that if one additionally knows the accretion rate $\\dot{M}$ (respectively, mass $M$) by any independent theoretical or observational approach, one can determine the values of $(M, r_o, i)$ [respectively, $(\\dot{M}, r_o, i)$] without degeneracy, in principle, from the value of flux at any point on the accretion disk.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "薄い降着円盤を伴うSchwarzschildブラックホールで，影の大きさと形，円盤のフラックスから質量，距離，傾斜角をどこまで決められるかを調べた研究です．"
     },
     {
       "id": "1910.01528",
@@ -95,7 +115,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/1910.01528",
-      "summary": "We investigate the escape of photons from the vicinity of the horizon to infinity in the Kerr-Newmann black hole spacetime. We assume that a light source is at rest in a locally nonrotating frame and photons are emitted isotropically. Then, we evaluate the escape probability of the emitted photons. The main result of this paper is the following. If the black hole is extremal with the nondimensional spin parameter $a_*> 1/2$, however close to the horizon the light source would be, the escape probability remains nonzero. The near-horizon limit value of the escape probability is a monotonically increasing function of $a_*$ and takes a maximum $\\sim$29.1\\% at $a_*=1$, i.e., for the extremal Kerr case. On the other hand, if the black hole is extremal with $0\\leq a_*\\leq 1/2$ or if the black hole is subextremal, the near-horizon limit value is zero."
+      "summary": "We investigate the escape of photons from the vicinity of the horizon to infinity in the Kerr-Newmann black hole spacetime. We assume that a light source is at rest in a locally nonrotating frame and photons are emitted isotropically. Then, we evaluate the escape probability of the emitted photons. The main result of this paper is the following. If the black hole is extremal with the nondimensional spin parameter $a_*> 1/2$, however close to the horizon the light source would be, the escape probability remains nonzero. The near-horizon limit value of the escape probability is a monotonically increasing function of $a_*$ and takes a maximum $\\sim$29.1\\% at $a_*=1$, i.e., for the extremal Kerr case. On the other hand, if the black hole is extremal with $0\\leq a_*\\leq 1/2$ or if the black hole is subextremal, the near-horizon limit value is zero.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "Kerr-Newmanブラックホール地平線近傍で等方的に放たれた光子が無限遠へ逃げる確率を計算し，極限的な高速回転では地平線直近でも有限の脱出確率が残ることを示しています．"
     },
     {
       "id": "1905.01705",
@@ -111,7 +135,12 @@ window.SITE_DATA = {
       ],
       "primary": "math-ph",
       "url": "https://arxiv.org/abs/1905.01705",
-      "summary": "Static equilibrium configurations of continua supported by surface tension are given by constant mean curvature (CMC) surfaces which are critical points of a variational problem to extremize the area while keeping the volume fixed. CMC surfaces are used as mathematical models of a variety of continua, such as tiny liquid drops, stars, and nuclei, to play important roles in both mathematics and physics. Therefore, the geometry of CMC surfaces and their properties such as stability are of special importance in differential geometry and in a variety of physical sciences. In this paper we examine the stability of CMC hypersurfaces in arbitrary dimensions, possibly having boundaries on two parallel hyperplanes, by investigating the second variation of the area. We determine the stability of non-uniform liquid bridges or unduloids for the first time in all dimensions and all parameter (the ratio of the neck radius to bulge radius) regimes. The analysis is assisted by numerical computations."
+      "summary": "Static equilibrium configurations of continua supported by surface tension are given by constant mean curvature (CMC) surfaces which are critical points of a variational problem to extremize the area while keeping the volume fixed. CMC surfaces are used as mathematical models of a variety of continua, such as tiny liquid drops, stars, and nuclei, to play important roles in both mathematics and physics. Therefore, the geometry of CMC surfaces and their properties such as stability are of special importance in differential geometry and in a variety of physical sciences. In this paper we examine the stability of CMC hypersurfaces in arbitrary dimensions, possibly having boundaries on two parallel hyperplanes, by investigating the second variation of the area. We determine the stability of non-uniform liquid bridges or unduloids for the first time in all dimensions and all parameter (the ratio of the neck radius to bulge radius) regimes. The analysis is assisted by numerical computations.",
+      "themes": [
+        "geometry",
+        "fluid"
+      ],
+      "summaryJa": "表面張力で支えられる液柱を定平均曲率超曲面として扱い，平行超平面間に捕らえられた高次元unduloidの安定性を数値計算も用いて分類しています．"
     },
     {
       "id": "1811.03702",
@@ -126,7 +155,11 @@ window.SITE_DATA = {
       ],
       "primary": "astro-ph.HE",
       "url": "https://arxiv.org/abs/1811.03702",
-      "summary": "We systematically study pulsar light curves, taking into account the special relativistic effect, i.e., the Doppler factor due to the fast spin of the neutron stars, together with the time delay, which comes from the difference of the travel times depending on the position of the spots. For this purpose, first we derive the basic equations with the general expression of the metric for the static, spherically symmetric spacetime, where for simplicity we adopt the pointlike spot approximation for the antipodal spots associated with the magnetic polar cap model. Then, we calculate the light curves from the neutron star models in general relativity, with various angle between rotational and magnetic axes and the inclination angle. As the results, unlike the case for a slowly rotating stellar model, we find that the light curve from a fast rotating stellar model depends not only the stellar compactness but also the stellar radius. We also find that the amplitude of the light curve becomes larger as the stellar radius increases and as the stellar compactness decreases. Thus, via careful observations of the light curves from the rotating neutron star, one would determine the stellar compactness together with the stellar radius, if it rotates fast enough."
+      "summary": "We systematically study pulsar light curves, taking into account the special relativistic effect, i.e., the Doppler factor due to the fast spin of the neutron stars, together with the time delay, which comes from the difference of the travel times depending on the position of the spots. For this purpose, first we derive the basic equations with the general expression of the metric for the static, spherically symmetric spacetime, where for simplicity we adopt the pointlike spot approximation for the antipodal spots associated with the magnetic polar cap model. Then, we calculate the light curves from the neutron star models in general relativity, with various angle between rotational and magnetic axes and the inclination angle. As the results, unlike the case for a slowly rotating stellar model, we find that the light curve from a fast rotating stellar model depends not only the stellar compactness but also the stellar radius. We also find that the amplitude of the light curve becomes larger as the stellar radius increases and as the stellar compactness decreases. Thus, via careful observations of the light curves from the rotating neutron star, one would determine the stellar compactness together with the stellar radius, if it rotates fast enough.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "高速回転中性子星のパルス光度曲線にDoppler効果と到達時刻差を含めて計算し，半径やコンパクトさが観測波形にどう現れるかを調べています．"
     },
     {
       "id": "1807.09071",
@@ -142,7 +175,11 @@ window.SITE_DATA = {
       ],
       "primary": "astro-ph.HE",
       "url": "https://arxiv.org/abs/1807.09071",
-      "summary": "Gravitational light bending by compact stars is an important astrophysical phenomenon. The bending angle depends on the stellar compactness, which is the ratio of stellar mass $M$ to radius $R$. In this paper, we investigate the pulse profile of highly compact rotating neutron stars for which the bending angle exceeds $π/2$. When $M/R > 0.284$ (the bending angle becomes equal to $π/2$ for the stellar model with $M/R=0.284$), such a large bending happens, resulting in that a photon emitted from any position on the stellar surface can reach an observer. First, we classify the parameter plane of inclination angle $i$ and angle $Θ$ between the rotation axis and the normal on the hot spot by the number of photon paths reaching the observer. Then, we estimate the time-dependent flux of photons emitted from two hot spots on the rotating neutron star, associated with the magnetic polar caps, for various combinations of $i$ and $Θ$, and for two values of compactness, assuming that the stellar rotation is not so fast that the frame dragging and the stellar deformation are negligible. As the result, we find that the pulse profiles of highly compact neutron stars are qualitatively different from those for the standard neutron stars. In particular, the ratio of the maximum observed flux to the minimum one is significantly larger than that for the standard neutron stars. This study suggests that one would be able to constrain the equation of state for neutron stars through the observation of pulse profile with angles $i$ and $Θ$ determined by other methods."
+      "summary": "Gravitational light bending by compact stars is an important astrophysical phenomenon. The bending angle depends on the stellar compactness, which is the ratio of stellar mass $M$ to radius $R$. In this paper, we investigate the pulse profile of highly compact rotating neutron stars for which the bending angle exceeds $π/2$. When $M/R > 0.284$ (the bending angle becomes equal to $π/2$ for the stellar model with $M/R=0.284$), such a large bending happens, resulting in that a photon emitted from any position on the stellar surface can reach an observer. First, we classify the parameter plane of inclination angle $i$ and angle $Θ$ between the rotation axis and the normal on the hot spot by the number of photon paths reaching the observer. Then, we estimate the time-dependent flux of photons emitted from two hot spots on the rotating neutron star, associated with the magnetic polar caps, for various combinations of $i$ and $Θ$, and for two values of compactness, assuming that the stellar rotation is not so fast that the frame dragging and the stellar deformation are negligible. As the result, we find that the pulse profiles of highly compact neutron stars are qualitatively different from those for the standard neutron stars. In particular, the ratio of the maximum observed flux to the minimum one is significantly larger than that for the standard neutron stars. This study suggests that one would be able to constrain the equation of state for neutron stars through the observation of pulse profile with angles $i$ and $Θ$ determined by other methods.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "強くコンパクトな中性子星では光の曲がりが大きく，表面のほぼ全域からの光が届き得ることを踏まえ，通常の中性子星とは異なるパルス形状を分類しています．"
     },
     {
       "id": "1805.02367",
@@ -158,7 +195,11 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/1805.02367",
-      "summary": "We investigate the dynamic Casimir effect (DCE) of a $1+1$ dimensional free massless scalar field in a finite or semi-infinite cavity for which the boundary condition (BC) instantaneously changes from the Neumann to Dirichlet BC or reversely. While this setup is motivated by the gravitational phenomena such as the formation of strong naked singularities or wormholes, and the topology change of spacetimes or strings in quantum gravity, the analysis is quite general. For the Neumann-to-Dirichlet cases, we find two components of diverging flux emanate from the point where the BC changes. We carefully compare this result with that of Ishibashi and Hosoya (2002) obtained in the context of a quantum version of cosmic censorship hypothesis, and show that one of the diverging components was overlooked by them and is actually non-renormalizable, suggesting to bring non-negligible backreaction or semiclassical instability. On the other hand, for the Dirichlet-to-Neumann cases, we reveal for the first time that only one component of diverging flux emanates, which is the same kind as that overlooked in the Neumann-to-Dirichlet cases. This result suggests not only the robustness of the appearance of diverging flux in instantaneous limits of DCE but also that the type of divergence sensitively depends on the combination of initial and final BCs."
+      "summary": "We investigate the dynamic Casimir effect (DCE) of a $1+1$ dimensional free massless scalar field in a finite or semi-infinite cavity for which the boundary condition (BC) instantaneously changes from the Neumann to Dirichlet BC or reversely. While this setup is motivated by the gravitational phenomena such as the formation of strong naked singularities or wormholes, and the topology change of spacetimes or strings in quantum gravity, the analysis is quite general. For the Neumann-to-Dirichlet cases, we find two components of diverging flux emanate from the point where the BC changes. We carefully compare this result with that of Ishibashi and Hosoya (2002) obtained in the context of a quantum version of cosmic censorship hypothesis, and show that one of the diverging components was overlooked by them and is actually non-renormalizable, suggesting to bring non-negligible backreaction or semiclassical instability. On the other hand, for the Dirichlet-to-Neumann cases, we reveal for the first time that only one component of diverging flux emanates, which is the same kind as that overlooked in the Neumann-to-Dirichlet cases. This result suggests not only the robustness of the appearance of diverging flux in instantaneous limits of DCE but also that the type of divergence sensitively depends on the combination of initial and final BCs.",
+      "themes": [
+        "quantum"
+      ],
+      "summaryJa": "境界条件をNeumann型からDirichlet型へ瞬間的に変える動的Casimir効果を調べ，発散するエネルギーフラックスの成分とその半古典的な不安定性を明らかにしています．"
     },
     {
       "id": "1710.08581",
@@ -173,7 +214,11 @@ window.SITE_DATA = {
       ],
       "primary": "astro-ph.HE",
       "url": "https://arxiv.org/abs/1710.08581",
-      "summary": "In order to examine the pulse profile from a pulsar, we derive the formula for describing the flux from antipodal hot spots with any static, spherically symmetric spacetime. We find that the pulse profiles are almost independent of the gravitational geometry outside the star when the compactness of neutron stars is low enough, e.g., the stellar mass and radius are $1.4M_\\odot$ and 14 km, respectively. On the other hand, the pulse profiles depend strongly on the gravitational geometry when the compactness of neutron stars is so high, e.g., the stellar mass and radius are $1.8M_\\odot$ and 10 km, respectively. Thus, one may probe the spacetime geometry outside the star and even distinguish gravitational theories via the observation of pulse profile with the help of another observations for the stellar compactness, if the compactness of central object is high enough. We also derive the 1st and 2nd order approximation of the flux with respect to a parameter defined by the radio of the gravitational radius of considered spacetime to the stellar radius. Then, we find that the relative error from full order numerical results in the bending angle becomes $\\sim 20-30\\%$ with the 1st order and $\\sim 5-10\\%$ with the 2nd order approximations for a typical neutron star, whose mass and radius are $1.4M_\\odot$ and 12 km, respectively. Our results with the 1st order approximation for the Schwarzschild spacetime are different from those obtained in the literature, which suggests that the 1st order approximation has been misunderstood to yield highly accurate prediction."
+      "summary": "In order to examine the pulse profile from a pulsar, we derive the formula for describing the flux from antipodal hot spots with any static, spherically symmetric spacetime. We find that the pulse profiles are almost independent of the gravitational geometry outside the star when the compactness of neutron stars is low enough, e.g., the stellar mass and radius are $1.4M_\\odot$ and 14 km, respectively. On the other hand, the pulse profiles depend strongly on the gravitational geometry when the compactness of neutron stars is so high, e.g., the stellar mass and radius are $1.8M_\\odot$ and 10 km, respectively. Thus, one may probe the spacetime geometry outside the star and even distinguish gravitational theories via the observation of pulse profile with the help of another observations for the stellar compactness, if the compactness of central object is high enough. We also derive the 1st and 2nd order approximation of the flux with respect to a parameter defined by the radio of the gravitational radius of considered spacetime to the stellar radius. Then, we find that the relative error from full order numerical results in the bending angle becomes $\\sim 20-30\\%$ with the 1st order and $\\sim 5-10\\%$ with the 2nd order approximations for a typical neutron star, whose mass and radius are $1.4M_\\odot$ and 12 km, respectively. Our results with the 1st order approximation for the Schwarzschild spacetime are different from those obtained in the literature, which suggests that the 1st order approximation has been misunderstood to yield highly accurate prediction.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "任意の静的球対称時空でホットスポットからのパルス光度を計算する式を導き，コンパクトさが大きい中性子星では外部時空の違いが波形に強く現れることを示しています．"
     },
     {
       "id": "1705.00486",
@@ -188,7 +233,12 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/1705.00486",
-      "summary": "The Einstein equations describing the black-brane dynamics both in Minkowski and AdS background were recently recast in the form of coupled diffusion equations in the large-$D$(imension) limit. Using such results in the literature, we formulate a higher-order perturbation theory of black branes in time domain and present the general form of solutions for arbitrary initial conditions. For illustrative purposes, the solutions up to the first or second order are explicitly written down for several kind of initial conditions, such as a Gaussian wave packet, shock wave, and rather general superposed sinusoidal waves. These could be the first examples describing the non-trivial evolution of black-brane horizons in time domain. In particular, we learn some interesting aspects of black-brane dynamics such as the Gregory-Laflamme (GL) instability and non-equilibrium steady state (NESS). The formalism presented here would be applicable to the analysis of various black branes and their holographically dual field theories."
+      "summary": "The Einstein equations describing the black-brane dynamics both in Minkowski and AdS background were recently recast in the form of coupled diffusion equations in the large-$D$(imension) limit. Using such results in the literature, we formulate a higher-order perturbation theory of black branes in time domain and present the general form of solutions for arbitrary initial conditions. For illustrative purposes, the solutions up to the first or second order are explicitly written down for several kind of initial conditions, such as a Gaussian wave packet, shock wave, and rather general superposed sinusoidal waves. These could be the first examples describing the non-trivial evolution of black-brane horizons in time domain. In particular, we learn some interesting aspects of black-brane dynamics such as the Gregory-Laflamme (GL) instability and non-equilibrium steady state (NESS). The formalism presented here would be applicable to the analysis of various black branes and their holographically dual field theories.",
+      "themes": [
+        "gravity",
+        "fluid"
+      ],
+      "summaryJa": "大次元極限で拡散方程式として表されたブラックブレーンの有効方程式に対し，高次の非線形摂動解を構成し，GL不安定性や非平衡定常状態の時間発展を解析しています．"
     },
     {
       "id": "1609.03022",
@@ -207,7 +257,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/1609.03022",
-      "summary": "We consider a head-on collision of two massive particles that move in the equatorial plane of an extremal Kerr black hole, which results in the production of two massless particles. Focusing on a typical case, where both of the colliding particles have zero angular momenta, we show that a massless particle produced in such a collision can escape to infinity with arbitrarily large energy in the near-horizon limit of the collision point. Furthermore, if we assume that the emission of the produced massless particles is isotropic in the center-of-mass frame but confined to the equatorial plane, the escape probability of the produced massless particle approaches $5/12$ and almost all escaping massless particles have arbitrarily large energy at infinity and an impact parameter approaching $2GM/c^2$, where $M$ is the mass of the black hole."
+      "summary": "We consider a head-on collision of two massive particles that move in the equatorial plane of an extremal Kerr black hole, which results in the production of two massless particles. Focusing on a typical case, where both of the colliding particles have zero angular momenta, we show that a massless particle produced in such a collision can escape to infinity with arbitrarily large energy in the near-horizon limit of the collision point. Furthermore, if we assume that the emission of the produced massless particles is isotropic in the center-of-mass frame but confined to the equatorial plane, the escape probability of the produced massless particle approaches $5/12$ and almost all escaping massless particles have arbitrarily large energy at infinity and an impact parameter approaching $2GM/c^2$, where $M$ is the mass of the black hole.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "極限Kerrブラックホール近傍の粒子衝突で生じた質量ゼロ粒子が，超Penrose過程として高エネルギーで無限遠へ脱出する確率と衝突パラメータを計算しています．"
     },
     {
       "id": "1606.08107",
@@ -225,7 +279,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/1606.08107",
-      "summary": "We propose a consistent analytic approach to the efficiency of collisional Penrose process in the vicinity of a maximally rotating Kerr black hole. We focus on a collision with arbitrarily high center-of-mass energy, which occurs if either of the colliding particles has its angular momentum fine-tuned to the critical value to enter the horizon. We show that if the fine-tuned particle is ingoing on the collision, the upper limit of the efficiency is $(2+\\sqrt{3})(2-\\sqrt{2})\\simeq 2.186$, while if the fine-tuned particle is bounced back before the collision, the upper limit is $(2+\\sqrt{3})^{2}\\simeq 13.93$. Despite earlier claims, the former can be attained for inverse Compton scattering if the fine-tuned particle is massive and starts at rest at infinity, while the latter can be attained for various particle reactions, such as inverse Compton scattering and pair annihilation, if the fine-tuned particle is either massless or highly relativistic at infinity. We discuss the difference between the present and earlier analyses."
+      "summary": "We propose a consistent analytic approach to the efficiency of collisional Penrose process in the vicinity of a maximally rotating Kerr black hole. We focus on a collision with arbitrarily high center-of-mass energy, which occurs if either of the colliding particles has its angular momentum fine-tuned to the critical value to enter the horizon. We show that if the fine-tuned particle is ingoing on the collision, the upper limit of the efficiency is $(2+\\sqrt{3})(2-\\sqrt{2})\\simeq 2.186$, while if the fine-tuned particle is bounced back before the collision, the upper limit is $(2+\\sqrt{3})^{2}\\simeq 13.93$. Despite earlier claims, the former can be attained for inverse Compton scattering if the fine-tuned particle is massive and starts at rest at infinity, while the latter can be attained for various particle reactions, such as inverse Compton scattering and pair annihilation, if the fine-tuned particle is either massless or highly relativistic at infinity. We discuss the difference between the present and earlier analyses.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "最大回転Kerrブラックホール近傍の衝突Penrose過程について，臨界粒子の入射・反射の違いを整理し，エネルギー抽出効率の上限を解析的に与えています．"
     },
     {
       "id": "1601.01172",
@@ -243,7 +301,11 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/1601.01172",
-      "summary": "Vacuum excitation by time-varying boundary conditions is not only of fundamental importance but also has recently been confirmed in a laboratory experiment. In this paper, we study the vacuum excitation of a scalar field by the instantaneous appearance and disappearance of a both-sided Dirichlet wall in the middle of a 1D cavity, as toy models of bifurcating and merging spacetimes, respectively. It is shown that the energy flux emitted positively diverges on the null lines emanating from the appearance and disappearance events, which is analogous to the result of Anderson and DeWitt. This result suggests that the semiclassical effect prevents the spacetime both from bifurcating and merging. In addition, we argue that the diverging flux in the disappearance case plays an interesting role to compensate for the lowness of ambient energy density after the disappearance, which is lower than the zero-point level."
+      "summary": "Vacuum excitation by time-varying boundary conditions is not only of fundamental importance but also has recently been confirmed in a laboratory experiment. In this paper, we study the vacuum excitation of a scalar field by the instantaneous appearance and disappearance of a both-sided Dirichlet wall in the middle of a 1D cavity, as toy models of bifurcating and merging spacetimes, respectively. It is shown that the energy flux emitted positively diverges on the null lines emanating from the appearance and disappearance events, which is analogous to the result of Anderson and DeWitt. This result suggests that the semiclassical effect prevents the spacetime both from bifurcating and merging. In addition, we argue that the diverging flux in the disappearance case plays an interesting role to compensate for the lowness of ambient energy density after the disappearance, which is lower than the zero-point level.",
+      "themes": [
+        "quantum"
+      ],
+      "summaryJa": "一次元空洞内にDirichlet壁が突然現れたり消えたりする場合の真空励起を計算し，壁の出現・消滅点から発散するエネルギーフラックスを示しています．"
     },
     {
       "id": "1511.00110",
@@ -261,7 +323,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/1511.00110",
-      "summary": "The center-of-mass energy of two particles can become arbitrarily large if they collide near the event horizon of an extremal Kerr black hole, which is called the Ba$\\rm \\tilde n$ados-Silk-West (BSW) effect. We consider such a high-energy collision of two particles which started from infinity and follow geodesics in the equatorial plane and investigate the energy extraction from such a high-energy particle collision and the production of particles in the equatorial plane. We analytically show that, on the one hand, if the produced particles are as massive as the colliding particles, the energy-extraction efficiency is bounded by $2.19$ approximately. On the other hand, if a very massive particle is to be produced as a result of the high-energy collision, which has negative energy and necessarily falls into the black hole, the upper limit of the energy-extraction efficiency is increased to $(2+\\sqrt{3})^2 \\simeq 13.9$. Thus, higher efficiency of the energy extraction, which is typically as large as 10, provides strong evidence for the production of a heavy particle."
+      "summary": "The center-of-mass energy of two particles can become arbitrarily large if they collide near the event horizon of an extremal Kerr black hole, which is called the Ba$\\rm \\tilde n$ados-Silk-West (BSW) effect. We consider such a high-energy collision of two particles which started from infinity and follow geodesics in the equatorial plane and investigate the energy extraction from such a high-energy particle collision and the production of particles in the equatorial plane. We analytically show that, on the one hand, if the produced particles are as massive as the colliding particles, the energy-extraction efficiency is bounded by $2.19$ approximately. On the other hand, if a very massive particle is to be produced as a result of the high-energy collision, which has negative energy and necessarily falls into the black hole, the upper limit of the energy-extraction efficiency is increased to $(2+\\sqrt{3})^2 \\simeq 13.9$. Thus, higher efficiency of the energy extraction, which is typically as large as 10, provides strong evidence for the production of a heavy particle.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "極限Kerrブラックホール近傍の高エネルギー衝突で大きなエネルギー抽出効率を得る条件を解析し，高効率には負エネルギーの重い生成粒子が必要であることを示しています．"
     },
     {
       "id": "1508.03119",
@@ -277,7 +343,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/1508.03119",
-      "summary": "We systematically examine the properties of null geodesics around an electrically charged, asymptotically flat black hole in Eddington-inspired Born-Infeld gravity, varying the electric charge of black hole and the coupling constant in the theory. We find that the radius of the unstable circular orbit for massless particle decreases with the coupling constant, if the value of the electrical charge is fixed. Additionally, we consider the strong gravitational lensing around such a black hole. We show that the deflection angle, the position angle of the relativistic images, and the magnification due to the light bending in strong gravitational field are quite sensitive to the parameters determining the black hole solution. Thus, through the accurate observations associated with the strong gravitational lensing, it might be possible to reveal the gravitational theory in a strong field regime."
+      "summary": "We systematically examine the properties of null geodesics around an electrically charged, asymptotically flat black hole in Eddington-inspired Born-Infeld gravity, varying the electric charge of black hole and the coupling constant in the theory. We find that the radius of the unstable circular orbit for massless particle decreases with the coupling constant, if the value of the electrical charge is fixed. Additionally, we consider the strong gravitational lensing around such a black hole. We show that the deflection angle, the position angle of the relativistic images, and the magnification due to the light bending in strong gravitational field are quite sensitive to the parameters determining the black hole solution. Thus, through the accurate observations associated with the strong gravitational lensing, it might be possible to reveal the gravitational theory in a strong field regime.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "EiBI重力の荷電ブラックホール周りのヌル測地線と強重力レンズを調べ，光子球や相対論的像が理論パラメータに敏感であることを示しています．"
     },
     {
       "id": "1412.4173",
@@ -293,7 +363,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/1412.4173",
-      "summary": "We systematically examine the properties of an electrically charged black hole in Eddington-inspired Born-Infeld gravity with not only the positive but also the negative coupling constant in the theory. As a result, we numerically find that the black hole solution exists even with the negative coupling constant, where the electric charge of black hole can be larger than the black hole mass. We also clarify the parameter space where the black hole solution exists. On the other hand, to examine the particle motion around such black hole, we derive the geodesic equation. The behavior of the effective potential for the radial particle motion is almost the same as that in general relativity, but the radius of the innermost stable circular orbit and the angular momentum giving the innermost stable circular orbit can be changed, depending on the coupling constant. In particular, we find that the radius of innermost stable circular orbit with the specific value of the coupling constant can be smaller than that for the extreme case in general relativity. Such a particle can release the gravitational binding energy more than the prediction in general relativity, which could be important from the observational point of view."
+      "summary": "We systematically examine the properties of an electrically charged black hole in Eddington-inspired Born-Infeld gravity with not only the positive but also the negative coupling constant in the theory. As a result, we numerically find that the black hole solution exists even with the negative coupling constant, where the electric charge of black hole can be larger than the black hole mass. We also clarify the parameter space where the black hole solution exists. On the other hand, to examine the particle motion around such black hole, we derive the geodesic equation. The behavior of the effective potential for the radial particle motion is almost the same as that in general relativity, but the radius of the innermost stable circular orbit and the angular momentum giving the innermost stable circular orbit can be changed, depending on the coupling constant. In particular, we find that the radius of innermost stable circular orbit with the specific value of the coupling constant can be smaller than that for the extreme case in general relativity. Such a particle can release the gravitational binding energy more than the prediction in general relativity, which could be important from the observational point of view.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "EiBI重力の荷電ブラックホール解と粒子運動を調べ，負の結合定数を含む存在領域やISCOの変化を明らかにした研究です．"
     },
     {
       "id": "1312.5843",
@@ -308,7 +382,12 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/1312.5843",
-      "summary": "In the context of the large extra dimensions or TeV-scale gravity, it has been argued that an effective naked singularity, called the visible border of spacetime, would be generated by high-energy particle collisions. Motivated by this interesting possibility, we investigate a particle creation by a naked singularity in general dimensions, adopting a spherically symmetric self-similar dust collapse as the simple model of a naked singularity formation. The power and energy of the particle emission behave in two distinct ways depending on a parameter in the model. In a generic case, the emission power is proportional to the quadratic inverse of the remaining time to the Cauchy horizon, which has been known for the four-dimensional case in the literature. On the other hand, in a degenerate case the emission power is proportional to the quartic inverse of the remaining time to the Cauchy horizon, and depends on the total mass of a dust fluid in spite that the central region of the collapse is scale-free due to the self-similarity. In the both cases, within a test-field approximation the energy radiated before any quantum gravitational effect dominates amounts to TeV. This suggests that a backreaction is not ignorable in the TeV-scale gravity context, in contrast to the similar phenomena in stellar collapse."
+      "summary": "In the context of the large extra dimensions or TeV-scale gravity, it has been argued that an effective naked singularity, called the visible border of spacetime, would be generated by high-energy particle collisions. Motivated by this interesting possibility, we investigate a particle creation by a naked singularity in general dimensions, adopting a spherically symmetric self-similar dust collapse as the simple model of a naked singularity formation. The power and energy of the particle emission behave in two distinct ways depending on a parameter in the model. In a generic case, the emission power is proportional to the quadratic inverse of the remaining time to the Cauchy horizon, which has been known for the four-dimensional case in the literature. On the other hand, in a degenerate case the emission power is proportional to the quartic inverse of the remaining time to the Cauchy horizon, and depends on the total mass of a dust fluid in spite that the central region of the collapse is scale-free due to the self-similarity. In the both cases, within a test-field approximation the energy radiated before any quantum gravitational effect dominates amounts to TeV. This suggests that a backreaction is not ignorable in the TeV-scale gravity context, in contrast to the similar phenomena in stellar collapse.",
+      "themes": [
+        "gravity",
+        "quantum"
+      ],
+      "summaryJa": "高次元自己相似ダスト崩壊で裸特異点形成に伴う粒子生成を計算し，Cauchy地平線に近づくと放射の振る舞いが模型のパラメータで大きく変わることを示しています．"
     },
     {
       "id": "1212.6701",
@@ -327,7 +406,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/1212.6701",
-      "summary": "For particle collision near rapidly rotating Kerr black holes, the center-of-mass energy can be arbitrarily high if the angular momentum of either of the colliding particles is fine-tuned. Recently, it has been shown that particles which are produced by such a particle collision and escape to infinity cannot be very massive nor very energetic. For electrically charged black holes there is a similar phenomenon, where the center-of-mass energy for the collision of charged particles near the horizon can be arbitrarily high. One might expect that there would exist a similar bound on the energy and mass of particles that are produced by such a particle collision and escape to infinity. In this paper, however, we see that this expectation is not the case. We explicitly show that superheavy and highly energetic charged particles produced by the collision near maximally charged black holes can escape to infinity at least within classical theory if the backreaction and self-force of the particle can be neglected."
+      "summary": "For particle collision near rapidly rotating Kerr black holes, the center-of-mass energy can be arbitrarily high if the angular momentum of either of the colliding particles is fine-tuned. Recently, it has been shown that particles which are produced by such a particle collision and escape to infinity cannot be very massive nor very energetic. For electrically charged black holes there is a similar phenomenon, where the center-of-mass energy for the collision of charged particles near the horizon can be arbitrarily high. One might expect that there would exist a similar bound on the energy and mass of particles that are produced by such a particle collision and escape to infinity. In this paper, however, we see that this expectation is not the case. We explicitly show that superheavy and highly energetic charged particles produced by the collision near maximally charged black holes can escape to infinity at least within classical theory if the backreaction and self-force of the particle can be neglected.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "最大荷電ブラックホール近傍の荷電粒子衝突では，古典論かつ自己力を無視する範囲で，超重く高エネルギーの生成粒子が無限遠へ脱出できることを示しています．"
     },
     {
       "id": "1205.7088",
@@ -345,7 +428,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/1205.7088",
-      "summary": "The center-of-mass energy of two particles colliding near the horizon of a maximally rotating black hole can be arbitrarily high if the angular momentum of either of the incident particles is fine-tuned, which we call a critical particle. We study particle emission from such high-energy collision and reaction in the equatorial plane fully analytically. We show that the unconditional upper limit of the energy of the emitted particle is given by 218.6% of that of the injected critical particle, irrespective of the details of the reaction and this upper limit can be realized for massless particle emission. The upper limit of the energy extraction efficiency for this emission as a collisional Penrose process is given by 146.6%, which can be realized in the collision of two massive particles with optimized mass ratio. Moreover, we analyze perfectly elastic collision, Compton scattering, and pair annihilation and show that net positive energy extraction is really possible for these three reactions. The Compton scattering is most efficient among them and the efficiency can reach 137.2%. On the other hand, our result is qualitatively consistent with the earlier claim that the mass and energy of the emitted particle are at most of order the total energy of the injected particles and hence we can observe neither super-heavy nor super-energetic particles."
+      "summary": "The center-of-mass energy of two particles colliding near the horizon of a maximally rotating black hole can be arbitrarily high if the angular momentum of either of the incident particles is fine-tuned, which we call a critical particle. We study particle emission from such high-energy collision and reaction in the equatorial plane fully analytically. We show that the unconditional upper limit of the energy of the emitted particle is given by 218.6% of that of the injected critical particle, irrespective of the details of the reaction and this upper limit can be realized for massless particle emission. The upper limit of the energy extraction efficiency for this emission as a collisional Penrose process is given by 146.6%, which can be realized in the collision of two massive particles with optimized mass ratio. Moreover, we analyze perfectly elastic collision, Compton scattering, and pair annihilation and show that net positive energy extraction is really possible for these three reactions. The Compton scattering is most efficient among them and the efficiency can reach 137.2%. On the other hand, our result is qualitatively consistent with the earlier claim that the mass and energy of the emitted particle are at most of order the total energy of the injected particles and hence we can observe neither super-heavy nor super-energetic particles.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "最大回転Kerrブラックホール近傍の高エネルギー衝突から出る粒子について，脱出エネルギーとPenrose過程の効率の上限を解析的に求めています．"
     },
     {
       "id": "1205.3211",
@@ -361,7 +448,11 @@ window.SITE_DATA = {
       ],
       "primary": "math-ph",
       "url": "https://arxiv.org/abs/1205.3211",
-      "summary": "The idea that a spacetime metric emerges as a Fisher-Rao `information metric' of instanton moduli space has been examined in several field theories such as the Yang-Mills theories and nonlinear sigma models. In this brief paper, we report that the flat Euclidean or Minkowskian metric, rather than an anti-de Sitter metric that generically emerges from instanton moduli spaces, can be obtained as the Fisher-Rao metric from a non-trivial solution of the massive Klein-Gordon field (a linear sigma model). This realization of the flat space from the simple field theory would be useful to investigate the ideas that relate the spacetime geometry with the information geometry."
+      "summary": "The idea that a spacetime metric emerges as a Fisher-Rao `information metric' of instanton moduli space has been examined in several field theories such as the Yang-Mills theories and nonlinear sigma models. In this brief paper, we report that the flat Euclidean or Minkowskian metric, rather than an anti-de Sitter metric that generically emerges from instanton moduli spaces, can be obtained as the Fisher-Rao metric from a non-trivial solution of the massive Klein-Gordon field (a linear sigma model). This realization of the flat space from the simple field theory would be useful to investigate the ideas that relate the spacetime geometry with the information geometry.",
+      "themes": [
+        "geometry"
+      ],
+      "summaryJa": "線形sigma模型の非自明な解のモジュライ空間からFisher-Rao情報計量を作り，平坦なEuclid/Minkowski計量が現れる例を示した研究です．"
     },
     {
       "id": "1108.0248",
@@ -378,7 +469,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/1108.0248",
-      "summary": "The possible violation of the weak cosmic censorship hypothesis in astrophysical phenomena can provide us with the information about trans-Planckian physics through observations. We present negative evidence, however, that one should not expect such a possibility at least when the deviation from spherical symmetry is negligible and the parameter values of collapse are astrophysically reasonable. Taking the Lemaître-Tolman-Bondi solution as the model most likely to counter the weak hypothesis, we show that the mass ($ \\gtrsim 1.5 M_\\odot $) and density ($ \\gtrsim 1.5 \\times 10^{15} \\; {\\rm g/cm^3}$) of the collapsing object produce a gravitational field strong enough to capture any null rays soon after emanating from the singularity."
+      "summary": "The possible violation of the weak cosmic censorship hypothesis in astrophysical phenomena can provide us with the information about trans-Planckian physics through observations. We present negative evidence, however, that one should not expect such a possibility at least when the deviation from spherical symmetry is negligible and the parameter values of collapse are astrophysically reasonable. Taking the Lemaître-Tolman-Bondi solution as the model most likely to counter the weak hypothesis, we show that the mass ($ \\gtrsim 1.5 M_\\odot $) and density ($ \\gtrsim 1.5 \\times 10^{15} \\; {\\rm g/cm^3}$) of the collapsing object produce a gravitational field strong enough to capture any null rays soon after emanating from the singularity.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "天体物理的に妥当な質量・密度を持つ球対称重力崩壊では，裸特異点から出る光線がすぐ捕獲され，弱い宇宙検閲に反する観測可能な状況は期待しにくいことを示しています．"
     },
     {
       "id": "1108.0210",
@@ -395,7 +490,12 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/1108.0210",
-      "summary": "Motivated by the recent argument that in the TeV-scale gravity trans-Planckian domains of spacetime as effective naked singularities would be generated by high-energy particle (and black-hole) collisions, we investigate the quantum particle creation by naked-singularity formation in general dimensions. Background spacetime is simply modeled by the self-similar Vaidya solution, describing the spherical collapse of a null dust fluid. In a generic case the emission power is found to be proportional to the quadratic inverse of the remaining time to a Cauchy horizon, as known in four dimensions. On the other hand, the power is proportional to the quartic inverse for a critical case in which the Cauchy horizon is `degenerate'. According to these results, we argue that the backreaction of the particle creation to gravity will be important in particle collisions, in contrast to the gravitational collapse of massive stellar objects, since the bulk of energy is carried away by the quantum radiation even if a quantum gravitational effect cutoff the radiation just before the appearance of naked singularity."
+      "summary": "Motivated by the recent argument that in the TeV-scale gravity trans-Planckian domains of spacetime as effective naked singularities would be generated by high-energy particle (and black-hole) collisions, we investigate the quantum particle creation by naked-singularity formation in general dimensions. Background spacetime is simply modeled by the self-similar Vaidya solution, describing the spherical collapse of a null dust fluid. In a generic case the emission power is found to be proportional to the quadratic inverse of the remaining time to a Cauchy horizon, as known in four dimensions. On the other hand, the power is proportional to the quartic inverse for a critical case in which the Cauchy horizon is `degenerate'. According to these results, we argue that the backreaction of the particle creation to gravity will be important in particle collisions, in contrast to the gravitational collapse of massive stellar objects, since the bulk of energy is carried away by the quantum radiation even if a quantum gravitational effect cutoff the radiation just before the appearance of naked singularity.",
+      "themes": [
+        "gravity",
+        "quantum"
+      ],
+      "summaryJa": "高次元Vaidya型の裸特異点形成で量子粒子生成を調べ，Cauchy地平線近傍の発散的放射により反作用が重要になることを示しています．"
     },
     {
       "id": "1105.5233",
@@ -410,7 +510,11 @@ window.SITE_DATA = {
       ],
       "primary": "physics.flu-dyn",
       "url": "https://arxiv.org/abs/1105.5233",
-      "summary": "We revisit the classic problem of the stability of drops and jets held by surface tension, while regarding the compressibility of bulk fluids and spatial dimensions as free parameters. By mode analysis, it is shown that there exists a critical compressibility above which the drops (and disks) become unstable for a spherical perturbation. For a given value of compressibility (and those of the surface tension and density at the equilibrium), this instability criterion provides a minimal radius below which the drop cannot be a stable equilibrium. According to the existence of the above unstable mode of drop, which corresponds to a homogeneous perturbation of cylindrical jet, the dispersion relation of Rayleigh-Plateau instability for cylinders drastically changes. In particular, we identify another critical compressibility above which the homogeneous unstable mode is predominant. The analysis is done for non-relativistic and relativistic perfect fluids, of which self-gravity is ignored."
+      "summary": "We revisit the classic problem of the stability of drops and jets held by surface tension, while regarding the compressibility of bulk fluids and spatial dimensions as free parameters. By mode analysis, it is shown that there exists a critical compressibility above which the drops (and disks) become unstable for a spherical perturbation. For a given value of compressibility (and those of the surface tension and density at the equilibrium), this instability criterion provides a minimal radius below which the drop cannot be a stable equilibrium. According to the existence of the above unstable mode of drop, which corresponds to a homogeneous perturbation of cylindrical jet, the dispersion relation of Rayleigh-Plateau instability for cylinders drastically changes. In particular, we identify another critical compressibility above which the homogeneous unstable mode is predominant. The analysis is done for non-relativistic and relativistic perfect fluids, of which self-gravity is ignored.",
+      "themes": [
+        "fluid"
+      ],
+      "summaryJa": "表面張力を持つ圧縮性の滴やジェットの安定性を次元も含めて解析し，圧縮率が大きいと球対称モードやRayleigh-Plateau不安定性が質的に変わることを示しています．"
     },
     {
       "id": "1012.2374",
@@ -427,7 +531,12 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/1012.2374",
-      "summary": "Recently, the possibility was pointed out by one of the present authors and his collaborators that an effective naked singularity referred to as \"a visible border of spacetime\" is generated by high-energy particle collision in the context of large extra dimensions or TeV-scale gravity. In this paper, we investigate the particle creation by a naked singularity in general dimensions, while adopting a model in which a marginally naked singularity forms in the collapse of a homothetic lightlike pressureless fluid. We find that the spectrum deviates from that of Hawking radiation due to scattering near the singularity but can be recast in quasi-thermal form. The temperature is always higher than that of Hawking radiation of a same-mass black hole, and can be arbitrarily high depending on a parameter in the model. This implies that, in principle, the naked singularity may be distinguished from a black hole in collider experiments."
+      "summary": "Recently, the possibility was pointed out by one of the present authors and his collaborators that an effective naked singularity referred to as \"a visible border of spacetime\" is generated by high-energy particle collision in the context of large extra dimensions or TeV-scale gravity. In this paper, we investigate the particle creation by a naked singularity in general dimensions, while adopting a model in which a marginally naked singularity forms in the collapse of a homothetic lightlike pressureless fluid. We find that the spectrum deviates from that of Hawking radiation due to scattering near the singularity but can be recast in quasi-thermal form. The temperature is always higher than that of Hawking radiation of a same-mass black hole, and can be arbitrarily high depending on a parameter in the model. This implies that, in principle, the naked singularity may be distinguished from a black hole in collider experiments.",
+      "themes": [
+        "gravity",
+        "quantum"
+      ],
+      "summaryJa": "高次元裸特異点形成に伴う粒子生成スペクトルを調べ，同じ質量のブラックホールのHawking放射より高温になり得るため，実験的識別の可能性があることを論じています．"
     },
     {
       "id": "1007.4610",
@@ -444,7 +553,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/1007.4610",
-      "summary": "Several years ago, two of the present authors proposed the concept of the border of spacetime as a generalization of spacetime singularities. Visible borders of spacetime, which replace naked singularities of classical theory, are not only necessary for the mathematical completeness of general relativity but they also provide a window into new physics of strongly curved spacetime, which is observable in principle. By employing simple geometrical and dimensional arguments, we show that not only black holes but also visible borders of spacetime will be generated at, for example, the CERN Large Hadron Collider, provided that the energy scale of quantum gravity is near 1 TeV in the framework of the large extra-dimension scenario."
+      "summary": "Several years ago, two of the present authors proposed the concept of the border of spacetime as a generalization of spacetime singularities. Visible borders of spacetime, which replace naked singularities of classical theory, are not only necessary for the mathematical completeness of general relativity but they also provide a window into new physics of strongly curved spacetime, which is observable in principle. By employing simple geometrical and dimensional arguments, we show that not only black holes but also visible borders of spacetime will be generated at, for example, the CERN Large Hadron Collider, provided that the energy scale of quantum gravity is near 1 TeV in the framework of the large extra-dimension scenario.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "時空の可視境界という概念を用い，大余剰次元シナリオでは高エネルギー衝突でブラックホールだけでなく強曲率領域が観測可能に生じ得ることを次元解析的に示しています．"
     },
     {
       "id": "1007.4302",
@@ -459,7 +572,11 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/1007.4302",
-      "summary": "Attention has been paid to the similarity and duality between the Gregory-Laflamme instability of black strings and the Rayleigh-Plateau instability of extended fluids. In this paper, we derive a set of simple (1+1)-dimensional equations from the Navier-Stokes equations describing thin flows of (non-relativistic and incompressible) viscous fluids. This formulation, a generalization of the theory of drop formation by Eggers and his collaborators, would make it possible to examine the final fate of Rayleigh-Plateau instability, its dimensional dependence, and possible self-similar behaviors before and after the drop formation, in the context of fluid/gravity correspondence."
+      "summary": "Attention has been paid to the similarity and duality between the Gregory-Laflamme instability of black strings and the Rayleigh-Plateau instability of extended fluids. In this paper, we derive a set of simple (1+1)-dimensional equations from the Navier-Stokes equations describing thin flows of (non-relativistic and incompressible) viscous fluids. This formulation, a generalization of the theory of drop formation by Eggers and his collaborators, would make it possible to examine the final fate of Rayleigh-Plateau instability, its dimensional dependence, and possible self-similar behaviors before and after the drop formation, in the context of fluid/gravity correspondence.",
+      "themes": [
+        "fluid"
+      ],
+      "summaryJa": "細い非相対論的非圧縮粘性流体に対する一次元有効方程式を導き，Rayleigh-Plateau不安定性の終状態や自己相似挙動を調べる道具を与えています．"
     },
     {
       "id": "0911.1187",
@@ -477,7 +594,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/0911.1187",
-      "summary": "We investigate static spherically symmetric vacuum solutions in the IR limit of projectable nonrelativistic quantum gravity, including the renormalisable quantum gravity recently proposed by Hořava. It is found that the projectability condition plays an important role. Without the cosmological constant, the spacetime is uniquely given by the Schwarzschild solution. With the cosmological constant, the spacetime is uniquely given by the Kottler (Schwarzschild-(anti) de Sitter) solution for the entirely vacuum spacetime. However, in addition to the Kottler solution, the static spherical and hyperbolic universes are uniquely admissible for the locally empty region, for the positive and negative cosmological constants, respectively, if its nonvanishing contribution to the global Hamiltonian constraint can be compensated by that from the nonempty or nonstatic region. This implies that static spherically symmetric entirely vacuum solutions would not admit the freedom to reproduce the observed flat rotation curves of galaxies. On the other hand, the result for locally empty regions implies that the IR limit of nonrelativistic quantum gravity theories does not simply recover general relativity but includes it."
+      "summary": "We investigate static spherically symmetric vacuum solutions in the IR limit of projectable nonrelativistic quantum gravity, including the renormalisable quantum gravity recently proposed by Hořava. It is found that the projectability condition plays an important role. Without the cosmological constant, the spacetime is uniquely given by the Schwarzschild solution. With the cosmological constant, the spacetime is uniquely given by the Kottler (Schwarzschild-(anti) de Sitter) solution for the entirely vacuum spacetime. However, in addition to the Kottler solution, the static spherical and hyperbolic universes are uniquely admissible for the locally empty region, for the positive and negative cosmological constants, respectively, if its nonvanishing contribution to the global Hamiltonian constraint can be compensated by that from the nonempty or nonstatic region. This implies that static spherically symmetric entirely vacuum solutions would not admit the freedom to reproduce the observed flat rotation curves of galaxies. On the other hand, the result for locally empty regions implies that the IR limit of nonrelativistic quantum gravity theories does not simply recover general relativity but includes it.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "projectable Hořava-Lifshitz重力の赤外極限で，静的球対称真空解の一意性を調べ，Schwarzschild/Kottler解と局所真空領域の違いを明らかにしています．"
     },
     {
       "id": "0908.1019",
@@ -494,7 +615,12 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/0908.1019",
-      "summary": "The system of extended objects interplaying with a black hole describes or mimics various gravitational phenomena. In this brief paper, we report the results of stability analysis of codimension-one Dirac-Nambu-Goto branes rest at the equatorial plane of $d$-dimensional spherical black holes, including the Schwarzschild and Schwarzschild-(anti-)de Sitter black holes. For the Schwarzschild and Schwarzschild-anti-de Sitter backgrounds the stability of branes is shown analytically by means of a deformation technique. In contrast, for the Schwarzschild-de Sitter background we demonstrate with the help of numerics that the brane is unstable (only) against the s-wave sector of perturbations."
+      "summary": "The system of extended objects interplaying with a black hole describes or mimics various gravitational phenomena. In this brief paper, we report the results of stability analysis of codimension-one Dirac-Nambu-Goto branes rest at the equatorial plane of $d$-dimensional spherical black holes, including the Schwarzschild and Schwarzschild-(anti-)de Sitter black holes. For the Schwarzschild and Schwarzschild-anti-de Sitter backgrounds the stability of branes is shown analytically by means of a deformation technique. In contrast, for the Schwarzschild-de Sitter background we demonstrate with the help of numerics that the brane is unstable (only) against the s-wave sector of perturbations.",
+      "themes": [
+        "gravity",
+        "geometry"
+      ],
+      "summaryJa": "高次元球対称ブラックホールの赤道面に置かれたDirac-Nambu-Gotoブレーンの安定性を調べ，背景がAdSかdSかで安定性が変わることを示しています．"
     },
     {
       "id": "0906.0264",
@@ -511,7 +637,12 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/0906.0264",
-      "summary": "Minimal surfaces and domain walls play important roles in various contexts of spacetime physics as well as material science. In this paper, we first review the Bernstein conjecture, which asserts that a plane is the only globally well defined solution of the minimal surface equation which is a single valued graph over a hyperplane in flat spaces, and its failure in higher dimensions. Then, we review how minimal cones in four- and higher-dimensional spacetimes, which are curved and even singular at the apex, may be used to provide counterexamples to the conjecture. The physical implications of these counterexamples in curved spacetimes are discussed from various points of view, ranging from classical general relativity, brane physics, and holographic models of fundamental interactions."
+      "summary": "Minimal surfaces and domain walls play important roles in various contexts of spacetime physics as well as material science. In this paper, we first review the Bernstein conjecture, which asserts that a plane is the only globally well defined solution of the minimal surface equation which is a single valued graph over a hyperplane in flat spaces, and its failure in higher dimensions. Then, we review how minimal cones in four- and higher-dimensional spacetimes, which are curved and even singular at the apex, may be used to provide counterexamples to the conjecture. The physical implications of these counterexamples in curved spacetimes are discussed from various points of view, ranging from classical general relativity, brane physics, and holographic models of fundamental interactions.",
+      "themes": [
+        "gravity",
+        "geometry"
+      ],
+      "summaryJa": "Bernstein予想と高次元の極小錐を概説し，曲がった時空やブレーン物理で極小曲面がどのように反例や臨界次元と関係するかを論じています．"
     },
     {
       "id": "0811.2305",
@@ -524,7 +655,12 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/0811.2305",
-      "summary": "We discuss the phase transitions between three states of a plasma fluid (plasma ball, uniform plasma tube, and non-uniform plasma tube), which are dual to the corresponding finite energy black objects (black hole, uniform black string, and non-uniform black string) localized in an asymptotically locally AdS space. Adopting the equation of state for the fluid obtained by the Scherk-Schwarz compactification of a conformal field theory, we obtain axisymmetric static equilibrium states of the plasma fluid and draw the phase diagrams with their thermodynamical quantities. By use of the fluid/gravity correspondence, we predict the phase diagrams of the AdS black holes and strings on the gravity side. The thermodynamic phase diagrams of the AdS black holes and strings show many similarities to those of the black hole-black string system in a Kaluza-Klein vacuum. For instance, the critical dimension for the smooth transition from the uniform to non-uniform strings is the same as that in the Kaluza-Klein vacuum in the canonical ensemble. The analysis in this paper may provide a holographic understanding of the relation between the Rayleigh-Plateau and Gregory-Laflamme instabilities via the fluid/gravity correspondence."
+      "summary": "We discuss the phase transitions between three states of a plasma fluid (plasma ball, uniform plasma tube, and non-uniform plasma tube), which are dual to the corresponding finite energy black objects (black hole, uniform black string, and non-uniform black string) localized in an asymptotically locally AdS space. Adopting the equation of state for the fluid obtained by the Scherk-Schwarz compactification of a conformal field theory, we obtain axisymmetric static equilibrium states of the plasma fluid and draw the phase diagrams with their thermodynamical quantities. By use of the fluid/gravity correspondence, we predict the phase diagrams of the AdS black holes and strings on the gravity side. The thermodynamic phase diagrams of the AdS black holes and strings show many similarities to those of the black hole-black string system in a Kaluza-Klein vacuum. For instance, the critical dimension for the smooth transition from the uniform to non-uniform strings is the same as that in the Kaluza-Klein vacuum in the canonical ensemble. The analysis in this paper may provide a holographic understanding of the relation between the Rayleigh-Plateau and Gregory-Laflamme instabilities via the fluid/gravity correspondence.",
+      "themes": [
+        "gravity",
+        "fluid"
+      ],
+      "summaryJa": "AdS側のブラックホール・ブラックストリング相転移を，双対なプラズマ流体の相図として描き，GL不安定性とRayleigh-Plateau型相転移の対応を示しています．"
     },
     {
       "id": "0805.3146",
@@ -537,7 +673,12 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/0805.3146",
-      "summary": "Important classes of null geodesics and hidden symmetries in the Sen black hole are investigated. First, we obtain the principal null geodesics and circular photon orbits. Then, an irreducible rank-two Killing tensor and a conformal Killing tensor are derived, which represent the hidden symmetries. Analyzing the properties of Killing tensors, we clarify why the Hamilton-Jacobi and wave equations are separable in this spacetime. We also investigate the gravitational capture of photons by the Sen black hole and compare the result with those by the various charged/rotating black holes and naked singularities in the Kerr-Newman family. For these black holes and naked singularities, we show the capture regions in a two dimensional impact parameter space (or equivalently the ``shadows'' observed at infinity) to form a variety of shapes such as the disk, circle, dot, arc, and their combinations."
+      "summary": "Important classes of null geodesics and hidden symmetries in the Sen black hole are investigated. First, we obtain the principal null geodesics and circular photon orbits. Then, an irreducible rank-two Killing tensor and a conformal Killing tensor are derived, which represent the hidden symmetries. Analyzing the properties of Killing tensors, we clarify why the Hamilton-Jacobi and wave equations are separable in this spacetime. We also investigate the gravitational capture of photons by the Sen black hole and compare the result with those by the various charged/rotating black holes and naked singularities in the Kerr-Newman family. For these black holes and naked singularities, we show the capture regions in a two dimensional impact parameter space (or equivalently the ``shadows'' observed at infinity) to form a variety of shapes such as the disk, circle, dot, arc, and their combinations.",
+      "themes": [
+        "gravity",
+        "geometry"
+      ],
+      "summaryJa": "Senブラックホールのヌル測地線，隠れた対称性，光子捕獲領域を調べ，影の形がKerr-Newman族の他の時空とどう異なるかを示しています．"
     },
     {
       "id": "0804.1723",
@@ -552,7 +693,12 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/0804.1723",
-      "summary": "It can be expected that the respective endpoints of the Gregory-Laflamme black brane instability and the Rayleigh-Plateau membrane instability are related because the bifurcation diagrams of the black hole-black string system and the liquid drop-liquid bridge system display many similarities. In this paper, we investigate the non-linear dynamics of the Rayleigh-Plateau instability in a range of dimensions, including the critical dimension at which the phase structure changes. We show that near the critical dimension and above, depending on a parameter in initial conditions an unstable cylinder will either pinch off or converge to an equilibrium state. The equilibrium state is apparently non-uniform but has a constant mean curvature everywhere. The results suggest that in the gravity side, near the critical dimension and above, the final state of an unstable black string (which is not too long) is a non-uniform black string. The equation of motion adopted to describe the dynamics is the surface diffusion equation, which was originally proposed to describe a grooving process of heated metal surfaces. An interesting correspondence between the diffusion dynamics and black hole (thermo)dynamics is discussed."
+      "summary": "It can be expected that the respective endpoints of the Gregory-Laflamme black brane instability and the Rayleigh-Plateau membrane instability are related because the bifurcation diagrams of the black hole-black string system and the liquid drop-liquid bridge system display many similarities. In this paper, we investigate the non-linear dynamics of the Rayleigh-Plateau instability in a range of dimensions, including the critical dimension at which the phase structure changes. We show that near the critical dimension and above, depending on a parameter in initial conditions an unstable cylinder will either pinch off or converge to an equilibrium state. The equilibrium state is apparently non-uniform but has a constant mean curvature everywhere. The results suggest that in the gravity side, near the critical dimension and above, the final state of an unstable black string (which is not too long) is a non-uniform black string. The equation of motion adopted to describe the dynamics is the surface diffusion equation, which was originally proposed to describe a grooving process of heated metal surfaces. An interesting correspondence between the diffusion dynamics and black hole (thermo)dynamics is discussed.",
+      "themes": [
+        "gravity",
+        "fluid"
+      ],
+      "summaryJa": "Rayleigh-Plateau不安定性の非線形発展を曲率駆動拡散で調べ，臨界次元近傍ではくびれ落ちず非一様な定平均曲率形状へ落ち着く場合があることを示しています．"
     },
     {
       "id": "0803.3037",
@@ -567,7 +713,13 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/0803.3037",
-      "summary": "Analyzing a capillary minimizing problem for a higher-dimensional extended fluid, we find that there exist startling similarities between the black hole-black string system (the Gregory-Laflamme instability) and the liquid drop-liquid bridge system (the Rayleigh-Plateau instability), which were first suggested by a perturbative approach. In the extended fluid system, we confirm the existence of the critical dimension above which the non-uniform bridge (NUB, i.e., {\\it Delaunay unduloid}) serves as the global minimizer of surface area. We also find a variety of phase structures (one or two cusps in the volume-area phase diagram) near the critical dimension. Applying a catastrophe theory, we predict that in the 9 dimensional (9D) space and below, we have the first order transition from a uniform bridge (UB) to a spherical drop (SD), while in the 10D space and above, we expect the transition such that UB $\\to$ NUB $\\to$ SD. This gives an important indication for a transition in the black hole-black string system."
+      "summary": "Analyzing a capillary minimizing problem for a higher-dimensional extended fluid, we find that there exist startling similarities between the black hole-black string system (the Gregory-Laflamme instability) and the liquid drop-liquid bridge system (the Rayleigh-Plateau instability), which were first suggested by a perturbative approach. In the extended fluid system, we confirm the existence of the critical dimension above which the non-uniform bridge (NUB, i.e., {\\it Delaunay unduloid}) serves as the global minimizer of surface area. We also find a variety of phase structures (one or two cusps in the volume-area phase diagram) near the critical dimension. Applying a catastrophe theory, we predict that in the 9 dimensional (9D) space and below, we have the first order transition from a uniform bridge (UB) to a spherical drop (SD), while in the 10D space and above, we expect the transition such that UB $\\to$ NUB $\\to$ SD. This gives an important indication for a transition in the black hole-black string system.",
+      "themes": [
+        "gravity",
+        "fluid",
+        "geometry"
+      ],
+      "summaryJa": "高次元液柱の面積最小化問題を解析し，液滴・液柱系の相構造がブラックホール・ブラックストリング系と対応することを示しています．"
     },
     {
       "id": "0709.1028",
@@ -582,7 +734,11 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/0709.1028",
-      "summary": "A simple master equation for the static perturbation of charged black strings is derived while employing the gauge proposed by Kol. As the charge is varied it is found that the potential in the master equation for the perturbations becomes positive exactly when the specific heat turns positive thus forbidding a bound state and the onset of the Gregory-Laflamme instability. It can safely be said that this is the first analytic and explicit evidence for the Gubser-Mitra conjecture, correlating the classical and thermodynamic instabilities of black branes. Possible generalizations of the analysis are also discussed."
+      "summary": "A simple master equation for the static perturbation of charged black strings is derived while employing the gauge proposed by Kol. As the charge is varied it is found that the potential in the master equation for the perturbations becomes positive exactly when the specific heat turns positive thus forbidding a bound state and the onset of the Gregory-Laflamme instability. It can safely be said that this is the first analytic and explicit evidence for the Gubser-Mitra conjecture, correlating the classical and thermodynamic instabilities of black branes. Possible generalizations of the analysis are also discussed.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "荷電ブラックストリングの静的摂動方程式を導き，比熱が正になるところでGL不安定モードが消えることを解析的に示し，Gubser-Mitra予想の証拠を与えています．"
     },
     {
       "id": "0709.1011",
@@ -599,7 +755,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/0709.1011",
-      "summary": "We reconsider spherically symmetric black hole solutions in Einstein-Aether theory with the condition that this theory has identical PPN parameters as those for general relativity, which is the main difference from the previous research. In contrast with previous study, we allow superluminal propagation of a spin-0 Aether-gravity wave mode. As a result, we obtain black holes having a spin-0 \"horizon\" inside an event horizon. We allow a singularity at a spin-0 \"horizon\" since it is concealed by the event horizon. If we allow such a configuration, the kinetic term of the Aether field can be large enough for black holes to be significantly different from Schwarzschild black holes with respect to ADM mass, innermost stable circular orbit, Hawking temperature, and so on. We also discuss whether or not the above features can be seen in more generic vector-tensor theories."
+      "summary": "We reconsider spherically symmetric black hole solutions in Einstein-Aether theory with the condition that this theory has identical PPN parameters as those for general relativity, which is the main difference from the previous research. In contrast with previous study, we allow superluminal propagation of a spin-0 Aether-gravity wave mode. As a result, we obtain black holes having a spin-0 \"horizon\" inside an event horizon. We allow a singularity at a spin-0 \"horizon\" since it is concealed by the event horizon. If we allow such a configuration, the kinetic term of the Aether field can be large enough for black holes to be significantly different from Schwarzschild black holes with respect to ADM mass, innermost stable circular orbit, Hawking temperature, and so on. We also discuss whether or not the above features can be seen in more generic vector-tensor theories.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "Einstein-Aether理論でPPN条件を課した球対称ブラックホールを再検討し，スピン0モードの地平線や質量，ISCO，温度の変化を調べています．"
     },
     {
       "id": "0707.0168",
@@ -615,7 +775,12 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/0707.0168",
-      "summary": "Recently, the relation between Hawking radiation and gravitational anomalies has been used to estimate the flux of Hawking radiation for a large class of black objects. In this paper, we extend the formalism, originally proposed by Robinson and Wilczek, to the Hawking radiation of vector particles (photons). It is explicitly shown, with Hamiltonian formalism, that the theory of an electromagnetic field on d-dimensional spherical black holes reduces to one of an infinite number of massive complex scalar fields on 2-dimensional spacetime, for which the usual anomaly-cancellation method is available. It is found that the total energy emitted from the horizon for the electromagnetic field is just (d-2) times as that for a scalar field. The results support the picture that Hawking radiation can be regarded as an anomaly eliminator on horizons. Possible extensions and applications of the analysis are discussed."
+      "summary": "Recently, the relation between Hawking radiation and gravitational anomalies has been used to estimate the flux of Hawking radiation for a large class of black objects. In this paper, we extend the formalism, originally proposed by Robinson and Wilczek, to the Hawking radiation of vector particles (photons). It is explicitly shown, with Hamiltonian formalism, that the theory of an electromagnetic field on d-dimensional spherical black holes reduces to one of an infinite number of massive complex scalar fields on 2-dimensional spacetime, for which the usual anomaly-cancellation method is available. It is found that the total energy emitted from the horizon for the electromagnetic field is just (d-2) times as that for a scalar field. The results support the picture that Hawking radiation can be regarded as an anomaly eliminator on horizons. Possible extensions and applications of the analysis are discussed.",
+      "themes": [
+        "gravity",
+        "quantum"
+      ],
+      "summaryJa": "重力異常の打ち消しから高次元球対称ブラックホールのベクトル場Hawking放射を導き，エネルギー流束がスカラー場の場合のd−2倍になることを示しています．"
     },
     {
       "id": "0706.1555",
@@ -635,7 +800,11 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/0706.1555",
-      "summary": "The negative mode of the Schwarzschild black hole is central to Euclidean quantum gravity around hot flat space and for the Gregory-Laflamme black string instability. We analyze the eigenvalue as a function of space-time dimension by constructing two perturbative expansions: one for large d and the other for small d-3, and determining as many coefficients as we are able to compute analytically. Joining the two expansions we obtain an interpolating rational function accurate to better than 2% through the whole range of dimensions including d=4."
+      "summary": "The negative mode of the Schwarzschild black hole is central to Euclidean quantum gravity around hot flat space and for the Gregory-Laflamme black string instability. We analyze the eigenvalue as a function of space-time dimension by constructing two perturbative expansions: one for large d and the other for small d-3, and determining as many coefficients as we are able to compute analytically. Joining the two expansions we obtain an interpolating rational function accurate to better than 2% through the whole range of dimensions including d=4.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "Schwarzschildブラックホールの負モード固有値を次元の関数として解析し，大次元展開と低次元展開をつないで全次元で高精度な近似式を与えています．"
     },
     {
       "id": "0705.3150",
@@ -651,7 +820,12 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/0705.3150",
-      "summary": "We calculate the quantum radiation from the five dimensional charged rotating black rings by demanding the radiation to eliminate the possible anomalies on the horizons. It is shown that the temperature, energy flux and angular-momentum flux exactly coincide with those of the Hawking radiation. The black rings considered in this paper contain the Myers-Perry black hole as a limit and the quantum radiation for this black hole, obtained in the literature, is recovered in the limit. The results support the picture that the Hawking radiation can be regarded as the anomaly eliminator on horizons and suggest its general applicability to the higher-dimensional black holes discovered recently."
+      "summary": "We calculate the quantum radiation from the five dimensional charged rotating black rings by demanding the radiation to eliminate the possible anomalies on the horizons. It is shown that the temperature, energy flux and angular-momentum flux exactly coincide with those of the Hawking radiation. The black rings considered in this paper contain the Myers-Perry black hole as a limit and the quantum radiation for this black hole, obtained in the literature, is recovered in the limit. The results support the picture that the Hawking radiation can be regarded as the anomaly eliminator on horizons and suggest its general applicability to the higher-dimensional black holes discovered recently.",
+      "themes": [
+        "gravity",
+        "quantum"
+      ],
+      "summaryJa": "5次元荷電回転ブラックリングのHawking放射を異常消去法で計算し，温度，エネルギー流束，角運動量流束が通常のHawking放射と一致することを示しています．"
     },
     {
       "id": "gr-qc/0609046",
@@ -667,7 +841,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/gr-qc/0609046",
-      "summary": "Non-uniform black strings coupled to a gauge field are constructed by a perturbative method in a wide range of spacetime dimensions. At the linear order of perturbations, we see that the Gregory-Laflamme instability vanishes at the point where the background solution becomes thermodynamically stable. The emergence/vanishing of the static mode resembles phase transitions, and in fact we find that its critical exponent is nearly 1/2, which means a second-order transition. By employing higher-order perturbations, the physical properties of the non-uniform black strings are investigated in detail. For fixed spacetime dimensions, we find the critical charges at which the stability of non-uniform states changes. For some range of charge, non-uniform black strings are entropically favored over uniform ones. The gauge charge works as a control parameter that controls not only the stability of uniform black strings but also the non-uniform states. In addition, we find that for a fixed background charge the uniform state is not necessarily the state carrying the largest tension. The phase diagram and a comparison with the critical dimension are also discussed."
+      "summary": "Non-uniform black strings coupled to a gauge field are constructed by a perturbative method in a wide range of spacetime dimensions. At the linear order of perturbations, we see that the Gregory-Laflamme instability vanishes at the point where the background solution becomes thermodynamically stable. The emergence/vanishing of the static mode resembles phase transitions, and in fact we find that its critical exponent is nearly 1/2, which means a second-order transition. By employing higher-order perturbations, the physical properties of the non-uniform black strings are investigated in detail. For fixed spacetime dimensions, we find the critical charges at which the stability of non-uniform states changes. For some range of charge, non-uniform black strings are entropically favored over uniform ones. The gauge charge works as a control parameter that controls not only the stability of uniform black strings but also the non-uniform states. In addition, we find that for a fixed background charge the uniform state is not necessarily the state carrying the largest tension. The phase diagram and a comparison with the critical dimension are also discussed.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "荷電非一様ブラックストリングを摂動論で構成し，電荷が一様解のGL安定性と非一様相のエントロピー優位性を制御することを示しています．"
     },
     {
       "id": "hep-th/0506019",
@@ -683,7 +861,11 @@ window.SITE_DATA = {
       ],
       "primary": "hep-th",
       "url": "https://arxiv.org/abs/hep-th/0506019",
-      "summary": "We investigate charged dilatonic black $p$-branes smeared on a transverse circle. The system can be reduced to neutral vacuum black branes, and we perform static perturbations for the reduced system to construct non-uniform solutions. At each order a single master equation is derived, and the Gregory-Laflamme critical wavelength is determined. Based on the non-uniform solutions, we discuss thermodynamic properties of this system and argue that in a microcanonical ensemble the non-uniform smeared branes are entropically disfavored even near the extremality, if the spacetime dimension is $D \\le 13 +p$, which is the critical dimension for the vacuum case. However, the critical dimension is not universal. In a canonical ensemble the vacuum non-uniform black branes are thermodynamically favorable at $D > 12+p$, whereas the non-uniform smeared branes are favorable at $D > 14+p$ near the extremality."
+      "summary": "We investigate charged dilatonic black $p$-branes smeared on a transverse circle. The system can be reduced to neutral vacuum black branes, and we perform static perturbations for the reduced system to construct non-uniform solutions. At each order a single master equation is derived, and the Gregory-Laflamme critical wavelength is determined. Based on the non-uniform solutions, we discuss thermodynamic properties of this system and argue that in a microcanonical ensemble the non-uniform smeared branes are entropically disfavored even near the extremality, if the spacetime dimension is $D \\le 13 +p$, which is the critical dimension for the vacuum case. However, the critical dimension is not universal. In a canonical ensemble the vacuum non-uniform black branes are thermodynamically favorable at $D > 12+p$, whereas the non-uniform smeared branes are favorable at $D > 14+p$ near the extremality.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "円周方向にスメアされた荷電dilatonicブラックブレーンの非一様解を摂動的に構成し，臨界次元と熱力学的有利性を調べています．"
     },
     {
       "id": "gr-qc/0411100",
@@ -702,7 +884,12 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/gr-qc/0411100",
-      "summary": "There are many solutions to the Einstein field equations that demonstrate naked singularity (NS) formation after regular evolution. It is possible, however, that such a quantum effect as particle creation prevents NSs from forming. We investigate the relation between the curvature strength and the quantum effects of NSs in a very wide class of spherical dust collapse. Through a perturbative calculation, we find that if the NS is very strong, the quantum particle creation diverges as the Cauchy horizon is approached, while if the NS is very weak, the creation should be finite. In the context of cosmic censorship, strong NSs will be subjected to the backreaction of quantum effects and may disappear or be hidden behind horizons, while weak NSs will not."
+      "summary": "There are many solutions to the Einstein field equations that demonstrate naked singularity (NS) formation after regular evolution. It is possible, however, that such a quantum effect as particle creation prevents NSs from forming. We investigate the relation between the curvature strength and the quantum effects of NSs in a very wide class of spherical dust collapse. Through a perturbative calculation, we find that if the NS is very strong, the quantum particle creation diverges as the Cauchy horizon is approached, while if the NS is very weak, the creation should be finite. In the context of cosmic censorship, strong NSs will be subjected to the backreaction of quantum effects and may disappear or be hidden behind horizons, while weak NSs will not.",
+      "themes": [
+        "gravity",
+        "quantum"
+      ],
+      "summaryJa": "球対称ダスト崩壊で生じる裸特異点について，曲率強度と量子粒子生成の関係を調べ，強い裸特異点ではCauchy地平線近傍で粒子生成が発散することを示しています．"
     },
     {
       "id": "gr-qc/0312080",
@@ -720,7 +907,12 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/gr-qc/0312080",
-      "summary": "Generic spherically symmetric self-similar collapse results in strong naked-singularity formation. In this paper we are concerned with particle creation during a naked-singularity formation in spherically symmetric self-similar collapse without specifying the collapsing matter. In the generic case, the power of particle emission is found to be proportional to the inverse square of the remaining time to the Cauchy horizon (CH). The constant of proportion can be arbitrarily large in the limit to marginally naked singularity. Therefore, the unbounded power is especially striking in the case that an event horizon is very close to the CH because the emitted energy can be arbitrarily large in spite of a cutoff expected from quantum gravity. Above results suggest the instability of the CH in spherically symmetric self-similar spacetime from quantum field theory and seem to support the existence of a semiclassical cosmic censor. The divergence of redshifts and blueshifts of emitted particles is found to cause the divergence of power to positive or negative infinity, depending on the coupling manner of scalar fields to gravity. On the other hand, it is found that there is a special class of self-similar spacetimes in which the semiclassical instability of the CH is not efficient. The analyses in this paper are based on the geometric optics approximation, which is justified in two dimensions but needs justification in four dimensions."
+      "summary": "Generic spherically symmetric self-similar collapse results in strong naked-singularity formation. In this paper we are concerned with particle creation during a naked-singularity formation in spherically symmetric self-similar collapse without specifying the collapsing matter. In the generic case, the power of particle emission is found to be proportional to the inverse square of the remaining time to the Cauchy horizon (CH). The constant of proportion can be arbitrarily large in the limit to marginally naked singularity. Therefore, the unbounded power is especially striking in the case that an event horizon is very close to the CH because the emitted energy can be arbitrarily large in spite of a cutoff expected from quantum gravity. Above results suggest the instability of the CH in spherically symmetric self-similar spacetime from quantum field theory and seem to support the existence of a semiclassical cosmic censor. The divergence of redshifts and blueshifts of emitted particles is found to cause the divergence of power to positive or negative infinity, depending on the coupling manner of scalar fields to gravity. On the other hand, it is found that there is a special class of self-similar spacetimes in which the semiclassical instability of the CH is not efficient. The analyses in this paper are based on the geometric optics approximation, which is justified in two dimensions but needs justification in four dimensions.",
+      "themes": [
+        "gravity",
+        "quantum"
+      ],
+      "summaryJa": "自己相似重力崩壊で形成されるCauchy地平線の半古典的不安定性を調べ，粒子生成のパワーが残り時間の逆二乗で発散し得ることを示しています．"
     },
     {
       "id": "gr-qc/0208002",
@@ -735,7 +927,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/gr-qc/0208002",
-      "summary": "We investigate a particle velocity in the $κ$-Minkowski space-time, which is one of the realization of a noncommutative space-time. We emphasize that arrival time analyses by high-energy $γ$-rays or neutrinos, which have been considered as powerful tools to restrict the violation of Lorentz invariance, are not effective to detect space-time noncommutativity. In contrast with these examples, we point out a possibility that {\\it low-energy massive particles} play an important role to detect it."
+      "summary": "We investigate a particle velocity in the $κ$-Minkowski space-time, which is one of the realization of a noncommutative space-time. We emphasize that arrival time analyses by high-energy $γ$-rays or neutrinos, which have been considered as powerful tools to restrict the violation of Lorentz invariance, are not effective to detect space-time noncommutativity. In contrast with these examples, we point out a possibility that {\\it low-energy massive particles} play an important role to detect it.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "κ-Minkowski非可換時空での粒子速度を調べ，高エネルギー光子やニュートリノの到着時刻解析より，低エネルギーの有質量粒子が検出に重要となる可能性を指摘しています．"
     },
     {
       "id": "gr-qc/0111056",
@@ -750,7 +946,11 @@ window.SITE_DATA = {
       ],
       "primary": "gr-qc",
       "url": "https://arxiv.org/abs/gr-qc/0111056",
-      "summary": "We discuss astrophysical implications of $κ$-Minkowski space-time, in which there appears space-time noncommutativity. We first derive a velocity formula for particles based on the motion of a wave packet. The result is that a massless particle moves at a constant speed as in the usual Minkowski space-time, which implies that an arrival time analysis by $γ$-rays from Markarian (Mk) 421 does not exclude space-time noncommutativity. Based on this observation, we analyze reaction processes in $κ$-Minkowski space-time which are related to the puzzling detections of extremely high-energy cosmic rays above the Greisen-Zatsepin-Kuzmin cutoff and of high-energy ($\\sim$20 TeV) $γ$-rays from Mk 501."
+      "summary": "We discuss astrophysical implications of $κ$-Minkowski space-time, in which there appears space-time noncommutativity. We first derive a velocity formula for particles based on the motion of a wave packet. The result is that a massless particle moves at a constant speed as in the usual Minkowski space-time, which implies that an arrival time analysis by $γ$-rays from Markarian (Mk) 421 does not exclude space-time noncommutativity. Based on this observation, we analyze reaction processes in $κ$-Minkowski space-time which are related to the puzzling detections of extremely high-energy cosmic rays above the Greisen-Zatsepin-Kuzmin cutoff and of high-energy ($\\sim$20 TeV) $γ$-rays from Mk 501.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "κ-Minkowski非可換時空の天体物理的含意を調べ，超高エネルギー宇宙線やTeVガンマ線の反応過程を通して時空非可換性を検討しています．"
     }
   ],
   "album": [

@@ -5,14 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Teaching and education page for Umpei Miyamoto: calculus, linear algebra, logic, relativity, quantum mechanics, continuum physics, space science, and textbook.">
   <title>Education | Umpei Miyamoto</title>
-  <link rel="stylesheet" href="../assets/css/styles.css?v=20260614-4">
+  <link rel="stylesheet" href="../assets/css/styles.css?v=20260614-6">
   <script>
-    window.MathJax = {
-      tex: { inlineMath: [["\\(", "\\)"], ["$", "$"]] },
+    MathJax = {
+      loader: { load: ["[tex]/boldsymbol"] },
+      tex: {
+        inlineMath: [["\\(", "\\)"], ["$", "$"]],
+        packages: { "[+]": ["boldsymbol"] },
+        macros: { bm: ["\\boldsymbol{#1}", 1] }
+      },
       svg: { fontCache: "global" }
     };
   </script>
-  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -59,55 +64,55 @@
           <article class="course-card">
             <div class="course-meta">Akita Prefectural University / Apr. 2013 - present</div>
             <h3>Calculus Ia/IIa</h3>
-            <div class="course-formula">\( \frac{d}{dx}\int^x f(t)\,dt = f(x) \)</div>
+            <div class="course-formula">\( \displaystyle \frac{d}{dx}\int^x f(t)\,dt = f(x) \)</div>
             <p>Rates of change, integration, vector analysis, and differential equations are taught as tools for physics and engineering.</p>
           </article>
           <article class="course-card">
             <div class="course-meta">Akita Prefectural University / Apr. 2013 - present</div>
             <h3>Linear Algebra I and II</h3>
-            <div class="course-formula">\( A\mathbf{v}=\lambda\mathbf{v},\quad \det A,\quad \operatorname{rank} A \)</div>
+            <div class="course-formula">\( \displaystyle \mathbb{R}^n=\mathcal{N}(A)\oplus\mathcal{R}(A^{T}),\quad \mathbb{R}^m=\mathcal{N}(A^{T})\oplus\mathcal{R}(A) \)</div>
             <p>Matrices, linear maps, and eigenvalue problems are presented as a language for structured multivariable phenomena.</p>
           </article>
           <article class="course-card">
             <div class="course-meta">Akita Prefectural University / Apr. 2013 - present</div>
             <h3>Mathematics</h3>
-            <div class="course-formula">\( \frac{\sqrt{n}(\bar{X}_n-\mu)}{\sigma}\Rightarrow N(0,1) \)</div>
+            <div class="course-formula">\( \displaystyle \frac{\sqrt{n}(\bar{X}_n-\mu)}{\sigma}\Rightarrow N(0,1) \)</div>
             <p>First-year mathematics is positioned as a bridge toward specialized courses, balancing calculation with concepts.</p>
           </article>
           <article class="course-card">
             <div class="course-meta">Akita Prefectural College of Health Sciences / Sep. 2022 - present</div>
             <h3>Logic</h3>
-            <div class="course-formula">\( \neg(P\land Q)\Leftrightarrow(\neg P\lor\neg Q) \)</div>
+            <div class="course-formula">\( \displaystyle \neg(P\land Q)\Leftrightarrow(\neg P\lor\neg Q) \)</div>
             <p>Propositions, inference, negation, and contraposition support clear reading and writing of arguments.</p>
           </article>
           <article class="course-card">
             <div class="course-meta">Akita University / Oct. 2018 - present</div>
             <h3>Basics of Space Science</h3>
-            <div class="course-formula">\( H^2=\frac{8\pi G}{3}\rho-\frac{k}{a^2}+\frac{\Lambda}{3} \)</div>
+            <div class="course-formula">\( \displaystyle H^2=\frac{8\pi G}{3}\rho-\frac{k}{a^2}+\frac{\Lambda}{3} \)</div>
             <p>Stars, galaxies, cosmic expansion, and gravity are introduced through both equations and observation.</p>
           </article>
           <article class="course-card">
             <div class="course-meta">Rikkyo University / Apr. 2012 - Mar. 2013</div>
             <h3>Relativity and Advanced Gravity</h3>
-            <div class="course-formula">\( ds^2=g_{\mu\nu}\,dx^\mu dx^\nu \)</div>
+            <div class="course-formula">\( \displaystyle G_{\mu\nu}+\Lambda g_{\mu\nu}=\frac{8\pi G}{c^4}T_{\mu\nu} \)</div>
             <p>Relativity and gravity are treated as geometry of spacetime, with a clear route into research topics.</p>
           </article>
           <article class="course-card">
             <div class="course-meta">Waseda University / Sep. 2012 - Mar. 2013</div>
             <h3>Quantum Mechanics A</h3>
-            <div class="course-formula">\( i\hbar\frac{\partial\psi}{\partial t}=H\psi \)</div>
+            <div class="course-formula">\( \displaystyle i\hbar\frac{\partial\psi}{\partial t}=H\psi \)</div>
             <p>States, operators, and eigenvalue problems frame quantum mechanics in the language of linear algebra.</p>
           </article>
           <article class="course-card">
             <div class="course-meta">Waseda University / Oct. 2010 - Mar. 2013</div>
             <h3>Mechanics B</h3>
-            <div class="course-formula">\( \mathbf{F}=m\mathbf{a} \)</div>
+            <div class="course-formula">\( \displaystyle \bm{F}=m\bm{a} \)</div>
             <p>Particle motion is developed through the relation between force, conservation laws, and equations of motion.</p>
           </article>
           <article class="course-card">
             <div class="course-meta">Waseda University / Apr. 2012 - Sep. 2012</div>
             <h3>Continuum Physics</h3>
-            <div class="course-formula">\( \frac{\partial\mathbf{v}}{\partial t}+(\mathbf{v}\cdot\nabla)\mathbf{v}=-\frac{1}{\rho}\nabla p+\nu\nabla^2\mathbf{v} \)</div>
+            <div class="course-formula">\( \displaystyle \frac{\partial\bm{v}}{\partial t}+(\bm{v}\cdot\nabla)\bm{v}=-\frac{1}{\rho}\nabla p+\nu\nabla^2\bm{v} \)</div>
             <p>Fluids and continua are described through conservation laws and field equations.</p>
           </article>
         </div>
@@ -177,7 +182,7 @@
     </div>
   </footer>
 
-  <script src="../assets/js/data.js?v=20260614-4"></script>
-  <script src="../assets/js/site.js?v=20260614-4"></script>
+  <script src="../assets/js/data.js?v=20260614-6"></script>
+  <script src="../assets/js/site.js?v=20260614-6"></script>
 </body>
 </html>
