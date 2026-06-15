@@ -894,8 +894,23 @@ a:hover {
     font-size: 3rem;
   }
 
+  .hero {
+    min-height: auto;
+    padding-bottom: 30px;
+  }
+
+  .hero-inner {
+    min-height: auto;
+    padding: 92px 0 24px;
+    align-items: flex-start;
+  }
+
   .hero-portrait {
-    display: none;
+    position: relative;
+    right: auto;
+    bottom: auto;
+    width: min(360px, calc(100% - 32px));
+    margin: 0 auto;
   }
 
   .section-heading,
@@ -933,13 +948,12 @@ a:hover {
     justify-content: flex-start;
   }
 
-  .hero,
   .hero-inner {
-    min-height: 78svh;
+    padding: 68px 0 22px;
   }
 
-  .hero-inner {
-    padding: 82px 0 58px;
+  .hero-portrait {
+    width: min(330px, calc(100% - 32px));
   }
 
   .hero h1,
