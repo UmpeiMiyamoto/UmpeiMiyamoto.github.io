@@ -20,14 +20,12 @@
       <a class="brand" href="index.html">Umpei Miyamoto</a>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html">Home</a>
+        <a href="career.html">Profile</a>
         <a href="research.html" aria-current="page">Research</a>
-        <a href="publications.html">Publications</a>
-        <a href="career.html">Career</a>
         <a href="education.html">Education</a>
-        <a href="funding.html">Funding</a>
-        <a href="access.html">Access</a>
         <a href="links.html">Links</a>
         <a href="album.html">Album</a>
+        <a href="access.html">Access</a>
         <a class="language-link" href="../research.html">日本語</a>
       </nav>
     </div>
@@ -220,24 +218,70 @@
       </div>
     </section>
 
-    <section class="band">
+    <section class="band" id="publications">
       <div class="container">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Theme-Based List</p>
-            <h2>Selected by Theme</h2>
+            <p class="eyebrow">Publications</p>
+            <h2>Research Output</h2>
           </div>
           <p>Follow the papers through the main routes into the research.</p>
         </div>
-        <div class="filters" aria-label="Publication filters">
-          <button class="filter-button is-active" data-publication-filter="all">All</button>
-          <button class="filter-button" data-publication-filter="gravity">Relativity</button>
-          <button class="filter-button" data-publication-filter="quantum">Quantum fields</button>
-          <button class="filter-button" data-publication-filter="fluid">Fluids and Interfaces</button>
-          <button class="filter-button" data-publication-filter="geometry">Geometry</button>
-          <button class="filter-button" data-publication-filter="dimensional">Dimensional Analysis</button>
+        <div class="source-grid">
+          <article class="source-card">
+            <h3>arXiv</h3>
+            <p>Public preprints in reverse submission order.</p>
+            <p><a href="https://arxiv.org/search/?query=%22Umpei+Miyamoto%22&searchtype=author&order=-announced_date_first&size=50">Author search</a></p>
+          </article>
+          <article class="source-card">
+            <h3>Google Scholar</h3>
+            <p>Research profile with citation information.</p>
+            <p><a href="https://scholar.google.co.jp/citations?hl=ja&authuser=1&user=cXF3OGgAAAAJ">Scholar profile</a></p>
+          </article>
+          <article class="source-card">
+            <h3>researchmap</h3>
+            <p>Researcher profile with affiliation, interests, experience, publications, books, and projects.</p>
+            <p><a href="https://researchmap.jp/read0205537/?lang=en">researchmap</a></p>
+          </article>
         </div>
-        <div class="paper-list" data-publications data-limit="8" data-summary="true"></div>
+        <div class="publication-tools">
+          <div class="filters" aria-label="Publication filters">
+            <button class="filter-button is-active" data-publication-filter="all">All</button>
+            <button class="filter-button" data-publication-filter="gravity">Relativity</button>
+            <button class="filter-button" data-publication-filter="quantum">Quantum fields</button>
+            <button class="filter-button" data-publication-filter="fluid">Fluids and Interfaces</button>
+            <button class="filter-button" data-publication-filter="geometry">Geometry</button>
+            <button class="filter-button" data-publication-filter="dimensional">Dimensional Analysis</button>
+          </div>
+          <input class="search-field" type="search" placeholder="Search by title, author, or category" data-publication-search>
+        </div>
+        <div class="paper-list" data-publications data-summary="true"></div>
+      </div>
+    </section>
+
+    <section class="band paper">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Book</p>
+            <h2>Textbook</h2>
+          </div>
+          <p>
+            <em>Differential and Integral Calculus and Its Applications</em> was published by Kyoritsu Shuppan in 2022.
+          </p>
+        </div>
+        <div class="link-grid">
+          <article class="link-card">
+            <h3>Differential and Integral Calculus and Its Applications</h3>
+            <p>Umpei Miyamoto, Kyoritsu Shuppan, released on Nov. 22, 2022, ISBN 9784320114807.</p>
+            <p><a href="https://www.kyoritsu-pub.co.jp/book/b10023162.html">Publisher page</a></p>
+          </article>
+          <article class="link-card">
+            <h3>Errata</h3>
+            <p>Errata PDF for the calculus textbook.</p>
+            <p><a href="https://github.com/UmpeiMiyamoto/files/blob/main/calc_typo.pdf">PDF</a></p>
+          </article>
+        </div>
       </div>
     </section>
   </main>
@@ -248,11 +292,11 @@
         <strong>Umpei Miyamoto</strong>
         <div class="small">Last updated: <span data-last-updated></span></div>
       </div>
-      <div class="small"><a href="publications.html">Publications</a> / <a href="career.html">Career</a> / <a href="album.html">Album</a></div>
+      <div class="small"><a href="#publications">Publications</a> / <a href="career.html">Profile</a> / <a href="album.html">Album</a></div>
     </div>
   </footer>
 
   <script src="../assets/js/data.js?v=20260614-8"></script>
-  <script src="../assets/js/site.js?v=20260614-8"></script>
+  <script src="../assets/js/site.js?v=20260615-2"></script>
 </body>
 </html>
