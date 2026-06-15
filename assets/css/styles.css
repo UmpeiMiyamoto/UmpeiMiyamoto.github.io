@@ -225,23 +225,26 @@ a:hover {
   z-index: 2;
   right: max(28px, calc((100vw - var(--max)) / 2));
   bottom: 34px;
-  width: 174px;
-  border: 1px solid rgba(255, 255, 255, 0.36);
+  width: clamp(220px, 24vw, 320px);
+  margin: 0;
+  padding: 8px 8px 6px;
+  border: 1px solid rgba(255, 255, 255, 0.64);
   border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+  background: rgba(247, 246, 238, 0.9);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.22);
 }
 
 .hero-portrait img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 16 / 10;
   object-fit: cover;
+  border-radius: 6px;
 }
 
 .hero-portrait figcaption {
-  padding: 8px 10px;
-  background: rgba(17, 23, 26, 0.86);
-  color: #dfeae6;
+  padding: 7px 4px 0;
+  background: transparent;
+  color: #31413f;
   font-size: 0.78rem;
 }
 

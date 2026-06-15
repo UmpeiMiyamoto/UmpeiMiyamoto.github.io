@@ -314,6 +314,7 @@
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     }
     function draw(time) {
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       const t = time * 0.001;
       ctx.clearRect(0, 0, width, height);
       const gradient = ctx.createLinearGradient(0, 0, width, height);
@@ -397,6 +398,8 @@
         ctx.fillStyle = i % 4 === 0 ? "rgba(255, 211, 120, 0.95)" : "rgba(137, 238, 226, 0.82)";
         ctx.arc(x, y, i % 4 === 0 ? 2.6 : 1.6, 0, Math.PI * 2);
         ctx.fill();      }
+      ctx.restore();
+
       ctx.save(); ctx.translate(cx, cy);
       for (let i = 0; i < 7; i += 1) { ctx.beginPath(); ctx.ellipse(0, 0, 52 + i * 30, 24 + i * 12, 0.35, 0, Math.PI * 2); ctx.strokeStyle = `rgba(245,242,219,${0.16 - i * 0.012})`; ctx.stroke(); }
       ctx.restore();
