@@ -289,6 +289,52 @@
     return item.noteEn || translateNote(item.noteJa || "");
   }
 
+  function getAlbumPrimaryCaption(item) {
+    const place = lang === "ja" ? (item.titleJa || "") : (item.titleEn || titleTranslations[item.titleJa] || "");
+    const note = getAlbumNote(item);
+    const context = [item.titleJa, item.titleEn, item.tags].join(" ");
+    const broadPlaces = /^(ギリシャ|ペルー|イタリア|トルコ|ポルトガル|チリ|アルゼンチン|イスラエル|ヨルダン|エジプト|英国|ブラジル|秋田|東京|京都|千葉|富山|青森|岩手|愛知|山梨|松戸市)$/;
+    if (note && place && /料理/.test(context) && !broadPlaces.test(item.titleJa || "")) {
+      return lang === "ja" ? `${place}で食べた${note}` : `${note} in ${place}`;
+    }
+    if (note && place && !broadPlaces.test(item.titleJa || "")) return lang === "ja" ? `${place} ${note}` : `${place}, ${note}`;
+    return note || place;
+  }
+
+  function getAlbumRegion(item) {
+    const context = [item.titleJa, item.titleEn, item.noteJa, item.noteEn, item.tags].join(" ");
+    const japanRegions = [
+      ["東京", "Tokyo"], ["千葉", "Chiba"], ["京都", "Kyoto"], ["秋田", "Akita"],
+      ["富山", "Toyama"], ["青森", "Aomori"], ["岩手", "Iwate"], ["愛知", "Aichi"],
+      ["山梨", "Yamanashi"], ["静岡", "Shizuoka"]
+    ];
+    const japanAliases = [
+      ["松戸", "千葉", "Chiba"], ["伊豆", "静岡", "Shizuoka"], ["宮古", "岩手", "Iwate"],
+      ["鳥海", "秋田", "Akita"], ["下浜", "秋田", "Akita"], ["大曲", "秋田", "Akita"],
+      ["男鹿", "秋田", "Akita"], ["本荘", "秋田", "Akita"]
+    ];
+    const countries = [
+      ["ギリシャ", "Greece"], ["ペルー", "Peru"], ["イタリア", "Italy"], ["トルコ", "Turkey"],
+      ["ポルトガル", "Portugal"], ["チリ", "Chile"], ["アルゼンチン", "Argentina"],
+      ["イスラエル", "Israel"], ["ヨルダン", "Jordan"], ["エジプト", "Egypt"],
+      ["英国", "United Kingdom"], ["ブラジル", "Brazil"], ["スペイン", "Spain"]
+    ];
+    if (/国内/.test(context)) {
+      for (const entry of japanRegions) if (context.includes(entry[0])) return lang === "ja" ? entry[0] : entry[1];
+      for (const entry of japanAliases) if (context.includes(entry[0])) return lang === "ja" ? entry[1] : entry[2];
+      return "";
+    }
+    for (const entry of countries) if (context.includes(entry[0])) return lang === "ja" ? entry[0] : entry[1];
+    return "";
+  }
+
+  function getAlbumMeta(item) {
+    const region = getAlbumRegion(item);
+    if (!item.date) return region;
+    if (!region) return lang === "ja" ? `（${item.date}）` : `(${item.date})`;
+    return lang === "ja" ? `${region}（${item.date}）` : `${region} (${item.date})`;
+  }
+
   function albumPredicate(filter) {
     return function (item) {
       const context = [item.noteJa, item.noteEn, item.titleJa, item.titleEn, item.tags].join(" ");
@@ -315,9 +361,9 @@
         if (limit > 0) items = items.slice(0, limit);
         grid.innerHTML = items.length ? items.map(function (item) {
           const src = root + item.src;
-          const title = getAlbumTitle(item);
-          const note = getAlbumNote(item);
-          return `<figure class="photo-card"><a href="${escapeHTML(src)}"><img src="${escapeHTML(src)}" alt="${escapeHTML(title || note)}" loading="lazy"><figcaption>${title ? `<span class="photo-title">${escapeHTML(title)}</span>` : ""}${note ? `<span class="photo-note">${escapeHTML(note)}</span>` : ""}</figcaption></a></figure>`;
+          const caption = getAlbumPrimaryCaption(item);
+          const meta = getAlbumMeta(item);
+          return `<figure class="photo-card"><a href="${escapeHTML(src)}"><img src="${escapeHTML(src)}" alt="${escapeHTML(caption || meta)}" loading="lazy"><figcaption>${caption ? `<span class="photo-title">${escapeHTML(caption)}</span>` : ""}${meta ? `<span class="photo-note">${escapeHTML(meta)}</span>` : ""}</figcaption></a></figure>`;
         }).join("") : `<div class="no-results">${labels[lang].noPhotos}</div>`;
       }
       filters.forEach(function (button) {
