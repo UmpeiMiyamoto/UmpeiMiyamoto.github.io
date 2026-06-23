@@ -15,7 +15,7 @@
         <a href="index.html">ホーム</a>
         <a href="career.html">プロフィール</a>        <a href="research.html">研究</a>
         <a href="education.html">教育</a>
-        <a href="links.html">リンク集</a>
+        <a href="links.html">リンク</a>
         <a href="album.html" aria-current="page">アルバム</a>
         <a href="access.html">アクセス</a>
         <a class="language-link" href="en/album.html">English</a>
@@ -66,21 +66,6 @@
   </footer>
 
   <script src="assets/js/data.js?v=20260615-1"></script>
-  <script src="assets/js/site.js?v=20260615-3"></script>  <script>
-    (function () {
-      function polishAlbum() {
-        document.querySelectorAll('.photo-card a[href*="201605.jpg"]').forEach(function (link) {
-          const card = link.closest('.photo-card');
-          if (card) card.remove();
-        });
-        document.querySelectorAll('.photo-card figcaption').forEach(function (caption) {
-          caption.textContent = caption.textContent.replace('Aomor i', 'Aomori');
-        });
-      }
-      polishAlbum();
-      const grid = document.querySelector('[data-album]');
-      if (grid) new MutationObserver(polishAlbum).observe(grid, { childList: true, subtree: true });
-    }());
-  </script>
+  <script src="assets/js/site.js?v=20260615-3"></script>
 </body>
 </html>

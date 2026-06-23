@@ -228,10 +228,11 @@ a:hover {
   width: clamp(220px, 24vw, 320px);
   margin: 0;
   padding: 8px 8px 6px;
-  border: 1px solid rgba(255, 255, 255, 0.64);
+  border: 1px solid rgba(239, 188, 99, 0.88);
   border-radius: 8px;
-  background: rgba(247, 246, 238, 0.9);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.22);
+  background:
+    linear-gradient(135deg, rgba(15, 79, 74, 0.96), rgba(181, 138, 34, 0.92));
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
 }
 
 .hero-portrait img {
@@ -239,12 +240,13 @@ a:hover {
   aspect-ratio: 16 / 10;
   object-fit: cover;
   border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .hero-portrait figcaption {
   padding: 7px 4px 0;
   background: transparent;
-  color: #31413f;
+  color: #f7fbf8;
   font-size: 0.78rem;
 }
 
