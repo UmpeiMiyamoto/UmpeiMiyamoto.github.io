@@ -98,7 +98,7 @@
     { filename: "feature-017.jpg", src: "assets/album/featured/feature-017.jpg", titleJa: "山梨", titleEn: "Yamanashi", date: "2022.01", noteJa: "展望台からの富士山", noteEn: "Mount Fuji from an observatory", tags: "山梨 国内 風景" },
     { filename: "feature-018.jpg", src: "assets/album/featured/feature-018.jpg", titleJa: "秋田", titleEn: "Akita", date: "2022.08", noteJa: "雁の里ふれあいの森キャンプ場", noteEn: "Gan-no-sato forest campground", tags: "秋田 国内 風景" },
     { filename: "feature-019.jpg", src: "assets/album/featured/feature-019.jpg", titleJa: "秋田", titleEn: "Akita", date: "2022.10", noteJa: "秋の風景", noteEn: "autumn scene", tags: "秋田 国内 秋" },
-    { filename: "insert-202208-kanto.jpg", src: "assets/album/insert/insert-202208-kanto.jpg", titleJa: "秋田竿燈まつり", titleEn: "Akita Kanto Festival", date: "2022.08", noteJa: "竿燈", noteEn: "lantern festival", tags: "秋田 国内 祭り" },
+    { filename: "insert-202208-kanto.jpg", src: "assets/album/insert/insert-202208-kanto.jpg", titleJa: "秋田竿燈まつり", titleEn: "Akita Kanto Festival", date: "2024.08", noteJa: "竿燈", noteEn: "lantern festival", tags: "秋田 国内 祭り" },
     { filename: "feature-021.jpg", src: "assets/album/featured/feature-021.jpg", titleJa: "宮古", titleEn: "Miyako", date: "2022.11", noteJa: "リアス式海岸", noteEn: "ria coast", tags: "岩手 宮古 国内 海" },
     { filename: "feature-022.jpg", src: "assets/album/featured/feature-022.jpg", titleJa: "宮古", titleEn: "Miyako", date: "2022.11", noteJa: "瓶詰＠宮古市", noteEn: "bottled seafood in Miyako", tags: "岩手 宮古 国内" },
     { filename: "feature-023.jpeg", src: "assets/album/featured/feature-023.jpeg", titleJa: "鳥海山", titleEn: "Mount Chokai", date: "2022.07", noteJa: "山行", noteEn: "hike", tags: "秋田 国内 山" },
