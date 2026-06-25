@@ -1152,14 +1152,6 @@ window.SITE_DATA = {
       "source": "field"
     },
     {
-      "filename": "photo-077.jpg",
-      "title": "トリエステ",
-      "note": "2023.08.イタリア",
-      "src": "assets/album/field/photo-077.jpg",
-      "tags": "イタリア トリエステ 海外",
-      "source": "field"
-    },
-    {
       "filename": "200307a.jpg",
       "title": "アマゾンの夕焼け",
       "note": "2003.ブラジル",

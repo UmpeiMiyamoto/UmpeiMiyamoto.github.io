@@ -79,7 +79,6 @@
   ];
 
   const featuredAlbumRecords = [
-    { filename: "insert-202309-trieste-coast.JPG", src: "assets/album/insert/insert-202309-trieste-coast.JPG", titleJa: "トリエステ", titleEn: "Trieste", date: "2023.09", noteJa: "海岸", noteEn: "coast", tags: "イタリア トリエステ 海外 海" },
     { filename: "insert-202308-nandakore-mystery.png", src: "assets/album/insert/insert-202308-nandakore-mystery.png", titleJa: "世界の何だこれ？ミステリー", titleEn: "World's Nandakore Mystery", date: "2023.08", noteJa: "テレビ番組", noteEn: "television program", tags: "テレビ 国内 記録" },
     { filename: "insert-201909-forest-tree.jpg", src: "assets/album/insert/insert-201909-forest-tree.jpg", titleJa: "あがりこ大王", titleEn: "Agariko Daio", date: "2019.09", noteJa: "秋田", noteEn: "Akita", tags: "秋田 国内 自然 風景" },
     { filename: "insert-201909-flowers.jpg", src: "assets/album/insert/insert-201909-flowers.jpg", titleJa: "秋の記録", titleEn: "Autumn record", date: "2019.09", noteJa: "花と葉", noteEn: "flowers and leaves", tags: "国内 秋" },
@@ -90,7 +89,7 @@
     { filename: "insert-201809-salt-terraces.jpg", src: "assets/album/insert/insert-201809-salt-terraces.jpg", titleJa: "ペルー", titleEn: "Peru", date: "2018.09", noteJa: "塩田", noteEn: "salt terraces", tags: "ペルー 海外 風景" },
     { filename: "insert-201809-moray.jpg", src: "assets/album/insert/insert-201809-moray.jpg", titleJa: "ペルー", titleEn: "Peru", date: "2018.09", noteJa: "モライ遺跡", noteEn: "Moray", tags: "ペルー 海外 遺跡" },
     { filename: "insert-201809-machu-picchu.jpg", src: "assets/album/insert/insert-201809-machu-picchu.jpg", titleJa: "マチュピチュ", titleEn: "Machu Picchu", date: "2018.09", noteJa: "遺跡", noteEn: "ruins", tags: "ペルー 海外 遺跡" },
-    { filename: "insert-201809-peru-dish.jpg", src: "assets/album/insert/insert-201809-peru-dish.jpg", titleJa: "ペルー", titleEn: "Peru", date: "2018.09", noteJa: "クイの丸焼き", noteEn: "roasted cuy", tags: "ペルー 海外 料理 クイ" },
+    { filename: "insert-201809-peru-dish.jpg", src: "assets/album/insert/insert-201809-peru-dish.jpg", titleJa: "ペルー", titleEn: "Peru", date: "2018.09", noteJa: "クイ(鼠)の丸焼き", noteEn: "roasted cuy", tags: "ペルー 海外 料理 クイ" },
     { filename: "insert-201809-inca-stonework.jpg", src: "assets/album/insert/insert-201809-inca-stonework.jpg", titleJa: "ペルー", titleEn: "Peru", date: "2018.09", noteJa: "石組み", noteEn: "stonework", tags: "ペルー 海外 遺跡" },
     { filename: "insert-201809-peru-festival.jpg", src: "assets/album/insert/insert-201809-peru-festival.jpg", titleJa: "ペルー", titleEn: "Peru", date: "2018.09", noteJa: "祭り", noteEn: "festival", tags: "ペルー 海外 街" },
     { filename: "insert-201807-illustration.jpg", src: "assets/album/insert/insert-201807-illustration.jpg", titleJa: "記録", titleEn: "Record", date: "2018.07", noteJa: "イラスト", noteEn: "illustration", tags: "国内 記録" },
@@ -118,7 +117,6 @@
     { filename: "feature-016.jpg", src: "assets/album/featured/feature-016.jpg", titleJa: "教育", titleEn: "Teaching", date: "2022.09", noteJa: "論理学の教室", noteEn: "logic classroom", tags: "教育 論理学 国内" },
     { filename: "feature-017.jpg", src: "assets/album/featured/feature-017.jpg", titleJa: "山梨", titleEn: "Yamanashi", date: "2022.01", noteJa: "展望台からの富士山", noteEn: "Mount Fuji from an observatory", tags: "山梨 国内 風景" },
     { filename: "feature-018.jpg", src: "assets/album/featured/feature-018.jpg", titleJa: "秋田", titleEn: "Akita", date: "2022.08", noteJa: "雁の里ふれあいの森キャンプ場", noteEn: "Gan-no-sato forest campground", tags: "秋田 国内 風景" },
-    { filename: "feature-019.jpg", src: "assets/album/featured/feature-019.jpg", titleJa: "秋田", titleEn: "Akita", date: "2022.10", noteJa: "秋の風景", noteEn: "autumn scene", tags: "秋田 国内 秋" },
     { filename: "insert-202408-kanto.jpg", src: "assets/album/insert/insert-202408-kanto.jpg", titleJa: "秋田竿燈まつり", titleEn: "Akita Kanto Festival", date: "2024.08", noteJa: "竿燈", noteEn: "lantern festival", tags: "秋田 国内 祭り" },
     { filename: "feature-021.jpg", src: "assets/album/featured/feature-021.jpg", titleJa: "宮古", titleEn: "Miyako", date: "2022.11", noteJa: "リアス式海岸", noteEn: "ria coast", tags: "岩手 宮古 国内 海" },
     { filename: "feature-022.jpg", src: "assets/album/featured/feature-022.jpg", titleJa: "宮古", titleEn: "Miyako", date: "2022.11", noteJa: "瓶詰＠宮古市", noteEn: "bottled seafood in Miyako", tags: "岩手 宮古 国内" },
@@ -126,7 +124,6 @@
     { filename: "feature-024.jpg", src: "assets/album/featured/feature-024.jpg", titleJa: "冬の記録", titleEn: "Winter Record", date: "2021.12", noteJa: "雪の日の造形", noteEn: "snow-day figure", tags: "国内 雪" },
     { filename: "photo-012.jpg", src: "assets/album/field/photo-012.jpg", titleJa: "ベネチア", titleEn: "Venice", date: "2023.09", noteJa: "運河とゴンドラ", noteEn: "canal and gondola", tags: "イタリア ベネチア 海外 街" },
     { filename: "photo-004.jpg", src: "assets/album/field/photo-004.jpg", titleJa: "トリエステ", titleEn: "Trieste", date: "2023.09", noteJa: "港", noteEn: "harbor", tags: "イタリア トリエステ 海外 街" },
-    { filename: "photo-077.jpg", src: "assets/album/field/photo-077.jpg", titleJa: "トリエステ", titleEn: "Trieste", date: "2023.08", noteJa: "路地", noteEn: "back street", tags: "イタリア トリエステ 海外 街" },
     { filename: "photo-118.jpg", src: "assets/album/field/photo-118.jpg", titleJa: "秋田", titleEn: "Akita", date: "2023.04", noteJa: "水辺", noteEn: "waterside", tags: "秋田 国内 風景" },
     { filename: "201609a.jpg", src: "assets/album/images/201609a.jpg", titleJa: "ポルトガル", titleEn: "Portugal", date: "2016.09", noteJa: "路面電車", noteEn: "tram", tags: "ポルトガル 海外 街" },
     { filename: "201609b.jpg", src: "assets/album/images/201609b.jpg", titleJa: "ポルトガル", titleEn: "Portugal", date: "2016.09", noteJa: "路面電車", noteEn: "tram", tags: "ポルトガル 海外 街" },
