@@ -1,9 +1,30 @@
 window.SITE_DATA = {
   "publications": [
     {
+      "id": "2606.21921",
+      "year": "2026",
+      "title": "Determining Kerr black hole spin and inclination from a segment of the critical curve in black hole images",
+      "authors": [
+        "Kenta Hioki",
+        "Umpei Miyamoto",
+        "Tomohiro Harada"
+      ],
+      "categories": [
+        "gr-qc",
+        "astro-ph.HE"
+      ],
+      "primary": "gr-qc",
+      "url": "https://arxiv.org/abs/2606.21921",
+      "summary": "We present a method for determining the spin parameter $a/M$ and inclination angle $i$ of a non-extremal Kerr black hole from segments of the critical curve identified in black hole images. Although the critical curve itself is not directly observable, higher-order photon rings accumulate near it, and in realistic observations localized portions of the resulting brightness enhancement may be available for identifying segments of the critical curve. We introduce standardized segments of the critical curve and define three observables that characterize their geometry. We show that these observables uniquely determine $(a/M,i)$, together with an auxiliary parameter $r_{nl}\\in[0,1]$ specifying the location of the identified segment along the critical curve, within the domain considered. Thus, even a segment of the critical curve contains sufficient geometric information to constrain the black hole spin and inclination without reconstructing the full critical curve. The framework is naturally suited to realistic observations and may be extended to more general rotating black hole spacetimes.",
+      "themes": [
+        "gravity"
+      ],
+      "summaryJa": "ブラックホール画像中の臨界曲線の一部分から，非極限カー・ブラックホールのスピンと観測傾斜角を一意に決定する方法を提案した研究です．"
+    },
+    {
       "id": "2603.21527",
       "year": "2026",
-      "title": "Dimensional analysis with constraints",
+      "title": "A linear-algebraic formulation of dimensional analysis with constraints",
       "authors": [
         "Umpei Miyamoto"
       ],
@@ -13,11 +34,11 @@ window.SITE_DATA = {
       ],
       "primary": "math-ph",
       "url": "https://arxiv.org/abs/2603.21527",
-      "summary": "We develop a linear-algebraic framework for dimensional analysis in systems with constraints, particularly when variables are numerous or related by implicit relations so that direct elimination is impractical. By expressing both dimensional relations and constraints in logarithmic variables, the problem is reduced to a linear structure. This formulation yields a simple count of independent dimensionless quantities and, more importantly, a purely algebraic procedure to eliminate redundant ones without trial and error. The method is especially effective for systems with implicit or multiple constraints, and is illustrated with the classical drag force problem.",
+      "summary": "Dimensional analysis, especially Buckingham's $\\pi$ theorem, reduces the number of variables by rewriting a relation in terms of dimensionless quantities. When variables are tied by definitions, constitutive laws, or other constraints, however, eliminating variables in advance can be awkward. We formulate dimensional analysis with constraints as linear algebra in logarithmic variables. Dimensional transformations and constraints are represented by subspaces, the effective number of independent dimensionless quantities is characterized by their intersection, and a matrix representation yields a systematic redundancy elimination procedure. Examples from falling motion, drag force, and stock-market indicators illustrate the scope and limitations of the method.",
       "themes": [
         "dimensional"
       ],
-      "summaryJa": "制約条件を含む次元解析を対数変数の線形代数として定式化し，独立な無次元量の数え上げと冗長量の消去を機械的に行う方法を与えた研究です．"
+      "summaryJa": "制約条件を含む次元解析を対数変数の線形代数として定式化し，独立な無次元量の数え上げと冗長量の消去を体系化しています．落下運動，抗力，株式市場指標への応用を通じて，方法の適用範囲と限界も示しています．"
     },
     {
       "id": "2411.08486",
