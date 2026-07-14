@@ -1,6 +1,24 @@
 window.SITE_DATA = {
   "publications": [
     {
+      "id": "2607.10609",
+      "year": "2026",
+      "title": "The critical radius of compressible capillary drops: viscosity, thermodynamics, and diffuse-interface scales",
+      "authors": [
+        "Umpei Miyamoto"
+      ],
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "primary": "physics.flu-dyn",
+      "url": "https://arxiv.org/abs/2607.10609",
+      "summary": "A compressible capillary drop differs from an incompressible one in that its radius is a dynamical degree of freedom. When the drop is sufficiently small, this spherical mode can become unstable, defining a critical radius set by the competition between surface tension and compressibility. This paper examines the robustness and physical meaning of that critical radius. For a non-relativistic viscous fluid, starting from the viscous compressible equations and the free-surface stress condition, we derive the radial dispersion relation and show that shear and bulk viscosities change the eigenvalues but not the onset radius. A thermodynamic argument identifies the same radius as the point where the energy of a uniformly compressed drop changes from locally stable to unstable, explaining why the threshold is not set by viscous dissipation. This energetic interpretation can also be applied to a special-relativistic fluid, where the non-relativistic mass-density factor is replaced by the corresponding enthalpy-density factor. We then compare the critical radius with diffuse-interface length scales in two Cahn--Hilliard free-energy models to determine whether the instability can occur within the range of validity of the sharp-interface description. In a symmetric quartic model the critical radius is much smaller than the interface thickness, so the instability is absent throughout that range. In a shallow-well model, however, the critical radius can become parametrically larger than the interface thickness, leaving a range of sharp-interface drops that are unstable. Whether such a range exists therefore depends on the diffuse-interface free-energy model.",
+      "themes": [
+        "fluid"
+      ],
+      "summaryJa": "圧縮性をもつ毛管液滴の球対称モードが不安定化する臨界半径について，粘性流体の分散関係と熱力学的安定性からその意味を明らかにし，拡散界面模型の界面厚さとのスケール比較によって鋭い界面近似の適用範囲を検討した研究です．"
+    },
+    {
       "id": "2606.21921",
       "year": "2026",
       "title": "Determining Kerr black hole spin and inclination from a segment of the critical curve in black hole images",
