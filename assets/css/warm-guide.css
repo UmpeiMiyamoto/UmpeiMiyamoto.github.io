@@ -1,0 +1,103 @@
+/* 朱色と紺のテーマ．既存CSSの後で読み込む． */
+:root {
+  --bg: #f4f6f8;
+  --paper: #ffffff;
+  --ink: #182b49;
+  --muted: #536277;
+  --soft: #e7edf4;
+  --line: #cbd3df;
+  --teal: #c53e2b;
+  --teal-dark: #a93022;
+  --violet: #344f75;
+  --copper: #b73423;
+  --gold: #c53e2b;
+  --moss: #344f75;
+  --clay: #c53e2b;
+  --wash: #edf1f6;
+}
+body { background: var(--bg); }
+.site-header { position: sticky; top: 0; z-index: 50; background: #fffffff5; border-color: var(--line); }
+.nav-links a:hover, .nav-links a[aria-current="page"], .filter-button.active { background: #c53e2b12; color: #a93022; }
+.band.paper { background: #fff; }
+.thread-card, .link-card, .course-card, .paper-card, .source-card, .photo-card { border-top-color: #c53e2b; }
+.course-formula, .equation-panel, .tag, .filter-button, .related-papers a, .paper-visual { background: #edf1f6; border-color: var(--line); }
+.filter-button:hover, .filter-button.is-active, .related-papers a:hover { background: #c53e2b12; border-color: #c53e2b; }
+.button.primary { background: #c53e2b; border-color: #c53e2b; color: #fff; }
+.button.primary:hover { background: #ad3021; color: #fff; }
+.site-footer { background: #14243e; color: #edf1f7; border-top: 3px solid #c53e2b; }
+.site-footer a { color: #f5b2a6; }
+.site-footer .small { color: #bac7d9; }
+
+/* 紺の帯に朱色のアクセント．背景の動きは明暗を残して表示する． */
+.has-page-guide .hero, .has-page-guide .page-hero { background: #182e50; color: #f8fafc; min-height: auto; padding: 0; border-bottom: 4px solid #c53e2b; }
+.has-page-guide .hero::after, .has-page-guide .page-hero::before { display: none; }
+.has-page-guide .hero-canvas, .has-page-guide .page-canvas { opacity: .7; filter: grayscale(1); mix-blend-mode: screen; mask-image: linear-gradient(90deg,#0003,#0007 48%,#000 70%); }
+.hero .eyebrow, .has-page-guide .page-hero .eyebrow { color: #ffb5a7; }
+.hero-lede, .has-page-guide .page-hero p { color: #e2e9f3; }
+.hero .button { color: #f8fafc; background: #ffffff08; border-color: #9aaac0; }
+.hero .button:hover { background: #ffffff1c; }
+.hero .button.primary { background: #c53e2b; color: #fff; border-color: #c53e2b; }
+.hero .button.primary:hover { background: #ad3021; }
+
+/* 高さを固定せず，元のタイトル帯の上下余白に戻す． */
+.with-page-guide { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0,1fr) 180px; align-items: center; gap: 32px; padding: 88px 0 54px; min-height: 0; }
+.guide-home .hero-inner { padding: 64px 0; }
+.guide-home .hero-copy { width: 100%; }
+.guide-home .hero h1 { font-size: clamp(2.6rem,5vw,4.5rem); letter-spacing: .07em; }
+.guide-home .hero-portrait { display: none; }
+.guide-film { width: 100%; min-width: 0; margin: 0; padding: 0; }
+.guide-visual { display: block; width: 100%; max-width: 180px; height: auto; margin: 0 auto; pointer-events: none; position: relative; aspect-ratio: 1; }
+
+/* 本文幅を元のまま確保し，人物が帯の高さを押し広げないようにする． */
+@media (min-width: 761px) {
+ .page-hero .with-page-guide { display: block; }
+ .page-hero .guide-film { position: absolute; right: 0; bottom: 54px; width: 180px; }
+ .page-hero .guide-copy > p:not(.eyebrow) { max-width: min(820px,calc(100% - 212px)); }
+}
+
+/* 常時操作できるメニューバー． */
+.nav-shell { display: grid; grid-template-columns: auto 1fr auto; gap: 14px; }
+.nav-links { min-width: 0; }
+.nav-voice { font: inherit; font-size: .72rem; white-space: nowrap; border: 1px solid #8b9aaf; border-radius: 5px; background: #fff; color: #182e50; padding: 10px 12px; min-height: 44px; cursor: pointer; }
+.nav-voice[aria-pressed="true"] { color: #fff; background: #b93626; border-color: #b93626; }
+.nav-voice:hover { box-shadow: inset 0 0 0 1px #b93626; }
+.nav-voice:focus-visible, a:focus-visible { outline: 3px solid #d84b34; outline-offset: 3px; }
+.guide-sr-status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 1050px) {
+ .nav-shell { grid-template-columns: 1fr auto; padding: 10px 0; gap: 6px 12px; }
+ .brand { grid-column: 1; grid-row: 1; }
+ .nav-voice { grid-column: 2; grid-row: 1; }
+ .nav-links { grid-column: 1 / -1; grid-row: 2; flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; padding: 2px 0 6px; }
+ .nav-links a { flex: 0 0 auto; }
+ .with-page-guide { gap: 24px; }
+}
+@media (max-width: 760px) {
+ .has-page-guide .hero-canvas, .has-page-guide .page-canvas { mask-image: linear-gradient(#0006,#0004 65%,#000); }
+ .with-page-guide { grid-template-columns: minmax(0,1fr) 130px; gap: 8px 16px; }
+ .page-hero .guide-copy { display: contents; }
+ .page-hero h1 { font-size: clamp(1.35rem,5.8vw,2.36rem); overflow-wrap: anywhere; }
+ .page-hero .guide-copy > .eyebrow { grid-column: 1; grid-row: 1; align-self: end; margin-bottom: 0; }
+ .page-hero .guide-copy > h1 { grid-column: 1; grid-row: 2; align-self: start; }
+ .page-hero .guide-copy > p:not(.eyebrow) { grid-column: 1 / -1; grid-row: 3; margin-top: 16px; }
+ .page-hero .guide-film { grid-column: 2; grid-row: 1 / span 2; }
+ .guide-home .hero-inner { grid-template-columns: minmax(0,1fr); padding: 40px 0; gap: 20px; }
+ .guide-visual { max-width: 130px; }
+ .guide-home .hero-actions { gap: 8px; }
+ .nav-voice { font-size: .7rem; padding: 8px 10px; }
+ .nav-links a { padding: 6px 8px; font-size: .8rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+ html { scroll-behavior: auto; }
+ *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+/* 輪郭だけを透過し，人物本体には通常の不透明描画を用いる． */
+.guide-video-source { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.guide-person, .guide-poster { display: block; width: 100%; height: 100%; object-fit: contain; }
+.has-page-guide .guide-person { opacity: 1; filter: none; mix-blend-mode: normal; mask-image: none; }
+.guide-person { position: absolute; inset: 0; visibility: hidden; }
+.guide-ready .guide-person { visibility: visible; }
+.guide-ready .guide-poster { visibility: hidden; }
+.lesson-video { display: block; width: 100%; max-width: 960px; aspect-ratio: 16 / 9; background: #14243e; border-radius: 8px; }
+.lesson-note { color: var(--muted); font-size: .85rem; margin-top: 12px; }
+#lecture-video { scroll-margin-top: 110px; }
+@media (max-width: 1050px) { #lecture-video { scroll-margin-top: 145px; } }
