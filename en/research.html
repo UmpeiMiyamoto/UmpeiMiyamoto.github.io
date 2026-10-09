@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="../assets/css/styles.css?v=20260616-1">
   <script>
     window.MathJax = {
-      tex: { inlineMath: [["\\(", "\\)"], ["$", "$"]] },
+      loader: { load: ["[tex]/boldsymbol"] },
+      tex: { inlineMath: [["\\(", "\\)"], ["$", "$"]], packages: {"[+]": ["boldsymbol"]}, macros: {bm: ["\\boldsymbol{#1}", 1]} },
       svg: { fontCache: "global" }
     };
   </script>
@@ -302,7 +303,8 @@
   </footer>
 
   <script src="../assets/js/data.js?v=20260615-1"></script>
-  <script src="../assets/js/site.js?v=20260615-3"></script>
-  <script src="../assets/js/guide.js?v=20261009-9"></script>
+  <script src="../assets/js/site.js?v=20261009-10"></script>
+  <script src="../assets/js/guide.js?v=20261009-10"></script>
+  <script src="../assets/js/navigation.js?v=20261009-1"></script>
 </body>
 </html>

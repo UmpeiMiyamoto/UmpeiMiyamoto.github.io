@@ -1,4 +1,12 @@
-(function () {
+window.initializeSitePage = function () {
+  if (window.disposeSitePage) window.disposeSitePage();
+  const lifecycle = new AbortController();
+  const frames = new Set();
+  function nextFrame(callback) {
+    const id = requestAnimationFrame(time => { frames.delete(id); callback(time); });
+    frames.add(id);
+  }
+  window.disposeSitePage = () => { lifecycle.abort(); frames.forEach(cancelAnimationFrame); };
   const html = document.documentElement;
   const root = html.dataset.root || "";
   const lang = html.lang && html.lang.startsWith("ja") ? "ja" : "en";
@@ -500,8 +508,8 @@
       ctx.fillText("⟨Tμν⟩ren", Math.max(24, width * 0.12), Math.max(122, height * 0.27));
       ctx.fillText("H = const.", Math.max(24, width * 0.2), Math.max(174, height * 0.37));
 
-      if (!prefersReduced) window.requestAnimationFrame(draw);    }
-    resize(); window.addEventListener("resize", resize); draw(0);
+      if (!prefersReduced) nextFrame(draw);    }
+    resize(); window.addEventListener("resize", resize, {signal: lifecycle.signal}); draw(0);
   }
 
   function initPageCanvas() {
@@ -985,7 +993,7 @@
         research: drawResearch
       };
       (drawers[mode] || drawDefault)(t, colors);
-      if (!prefersReduced) window.requestAnimationFrame(draw);
+      if (!prefersReduced) nextFrame(draw);
     }
 
     function hexToRgba(hex, alpha) {
@@ -997,13 +1005,14 @@
     }
 
     resize();
-    window.addEventListener("resize", resize);
+    window.addEventListener("resize", resize, {signal: lifecycle.signal});
     draw(0);
-    if (!prefersReduced) window.requestAnimationFrame(draw);  }
+  }
 
   updateCounts();
   renderPublications();
   renderAlbum();
   initHeroCanvas();
   initPageCanvas();
-}());
+};
+window.initializeSitePage();
